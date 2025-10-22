@@ -3038,7 +3038,7 @@ const sentenceData = {
       isFinal: false,
       korean: '휴대폰을 해요.',
       chinese: {
-        hanzi: ['玩'(儿), '手机'],
+        hanzi: ['玩(儿)', '手机'],
         pinyin: ['wán(r)', 'shǒujī'],
       },
     },
