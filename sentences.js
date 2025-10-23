@@ -359,6 +359,8 @@ const sentenceData = {
         pinyin: ['tā', 'néng', 'tīngdǒng', 'hányǔ'],
       },
     },
+  ],
+  day2: [
     // 6번
     {
       id: 'sentence6',
@@ -458,6 +460,7 @@ const sentenceData = {
         ],
       },
     },
+
     // 7번
     {
       id: 'sentence7',
@@ -669,6 +672,7 @@ const sentenceData = {
         pinyin: ['bù xíng', 'bù néng', 'wán(r)', 'shǒujī'],
       },
     },
+
     // 9번
     {
       id: 'sentence9',
@@ -853,7 +857,7 @@ const sentenceData = {
       },
     },
   ],
-  day2: [
+  day3: [
     // 11번
     {
       id: 'sentence11',
@@ -967,6 +971,7 @@ const sentenceData = {
         pinyin: ['wǒ', 'yídìng', 'yào', 'chénggōng'],
       },
     },
+
     // 13번
     {
       id: 'sentence13',
@@ -1038,6 +1043,7 @@ const sentenceData = {
         pinyin: ['kāi chē', 'yào', 'zhùyì', 'ānquán'],
       },
     },
+
     // 14번
     {
       id: 'sentence14',
@@ -1109,6 +1115,7 @@ const sentenceData = {
         pinyin: ['wǒ', 'xiǎng', 'xiūxi', 'yíxià'],
       },
     },
+
     // 15번
     {
       id: 'sentence15',
@@ -1210,6 +1217,8 @@ const sentenceData = {
         pinyin: ['wǒ', 'jīntiān', 'bù xiǎng', 'chū mén'],
       },
     },
+  ],
+  day4: [
     // 16번
     {
       id: 'sentence16',
@@ -1281,6 +1290,7 @@ const sentenceData = {
         pinyin: ['nǐ', 'yīnggāi', 'duō', 'xiūxi'],
       },
     },
+
     // 17번
     {
       id: 'sentence17',
@@ -1372,6 +1382,7 @@ const sentenceData = {
         pinyin: ['nǐ', 'bù yīnggāi', 'zǒngshì', 'áoyè'],
       },
     },
+
     // 18번
     {
       id: 'sentence18',
@@ -1463,6 +1474,7 @@ const sentenceData = {
         pinyin: ['bù', 'hē', 'le', 'wǒ', 'děi', 'zǒu', 'le'],
       },
     },
+
     // 19번
     {
       id: 'sentence19',
@@ -1554,6 +1566,7 @@ const sentenceData = {
         pinyin: ['nǐ', 'yuànyì', 'jià', 'gěi', 'wǒ', 'ma'],
       },
     },
+
     // 20번
     {
       id: 'sentence20',
@@ -1664,8 +1677,7 @@ const sentenceData = {
       },
     },
   ],
-
-  day3: [
+  day5: [
     // 21번
     {
       id: 'sentence21',
@@ -1757,6 +1769,7 @@ const sentenceData = {
         pinyin: ['wǒ', 'xiǎng', 'shìshi', 'dàn', 'yǒudiǎn', 'pà'],
       },
     },
+
     // 22번
     {
       id: 'sentence22',
@@ -1818,6 +1831,7 @@ const sentenceData = {
         pinyin: ['yàobù', 'wǒmen', 'yìqǐ', 'qù'],
       },
     },
+
     // 23번
     {
       id: 'sentence23',
@@ -1869,6 +1883,7 @@ const sentenceData = {
         pinyin: ['nǐ', 'bìxū', 'lái'],
       },
     },
+
     // 24번
     {
       id: 'sentence24',
@@ -1960,6 +1975,7 @@ const sentenceData = {
         pinyin: ['kànguò', 'zhè', 'běn shū', 'zhídé', 'kàn'],
       },
     },
+
     // 25번
     {
       id: 'sentence25',
@@ -2051,6 +2067,8 @@ const sentenceData = {
         pinyin: ['zhè zhǒng', 'xiaoshì', 'gēmběn', 'bù zhídé', 'shēng qì'],
       },
     },
+  ],
+  day6: [
     // 26번
     {
       id: 'sentence26',
@@ -2323,6 +2341,7 @@ const sentenceData = {
         pinyin: ['nà', 'wǒ', 'háishi', 'gǎitiān', 'qù', 'ba'],
       },
     },
+
     // 28번
     {
       id: 'sentence28',
@@ -2483,6 +2502,7 @@ const sentenceData = {
         pinyin: ['dìtiě', 'yòu', 'kuài', 'yòu', 'piányi', 'duō hǎo a'],
       },
     },
+
     // 29번
     {
       id: 'sentence29',
@@ -2648,6 +2668,7 @@ const sentenceData = {
         pinyin: ['nà', 'wǒ', 'zài', 'děngdeng', 'ba'],
       },
     },
+
     // 30번
     {
       id: 'sentence30',
@@ -2760,8 +2781,7 @@ const sentenceData = {
       },
     },
   ],
-
-  day4: [
+  day7: [
     // 31번
     {
       id: 'sentence31',
@@ -2892,6 +2912,7 @@ const sentenceData = {
         pinyin: ['wǒ', 'wàng dài', 'shēnfènzhèng', 'le', 'nà', 'zhènmebàn'],
       },
     },
+
     // 32번
     {
       id: 'sentence32',
@@ -3031,6 +3052,7 @@ const sentenceData = {
         pinyin: ['yào', 'bù yào', 'qù', 'kànkan', 'tā'],
       },
     },
+
     // 33번
     {
       id: 'sentence33',
@@ -3172,6 +3194,7 @@ const sentenceData = {
         pinyin: ['kě', 'wǒ', 'hái', 'bù', 'kùn', 'ne'],
       },
     },
+
     // 34번
     {
       id: 'sentence34',
@@ -3303,6 +3326,7 @@ const sentenceData = {
         pinyin: ['wǒ', 'zhīdao', 'kěshì', 'yǒushíhou', 'zhēnde', 'hěn', 'lèi'],
       },
     },
+
     // 35번
     {
       id: 'sentence35',
@@ -3414,6 +3438,8 @@ const sentenceData = {
         pinyin: ['xièxie', 'nà', 'wǒ', 'zuò', 'zhèr', 'la'],
       },
     },
+  ],
+  day8: [
     // 36번
     {
       id: 'sentence36',
@@ -3515,6 +3541,7 @@ const sentenceData = {
         pinyin: ['ó', 'yuánlái', 'wàimiàn', 'yǒu', 'xīyānqū', 'a'],
       },
     },
+
     // 37번
     {
       id: 'sentence37',
@@ -3677,6 +3704,7 @@ const sentenceData = {
         pinyin: ['wǒ', 'xiāngxìn', 'nǐ', 'yídìng', 'néng', 'zuòdào'],
       },
     },
+
     // 38번
     {
       id: 'sentence38',
@@ -3801,6 +3829,7 @@ const sentenceData = {
         pinyin: ['hǎo de', 'fàng xīn', 'ba'],
       },
     },
+
     // 39번
     {
       id: 'sentence39',
@@ -3912,6 +3941,7 @@ const sentenceData = {
         pinyin: ['hǎo de', 'nǐ', 'xiān', 'xiūxi', 'ba'],
       },
     },
+
     // 40번
     {
       id: 'sentence40',
@@ -4064,57 +4094,126 @@ const sentenceData = {
       },
     },
   ],
-  day5: [
+  day9: [
     // 41번
     {
       id: 'sentence41',
       level: 1,
       isFinal: false,
-      korean: '…할 수 없다',
+      korean: '푹 쉬어요.',
       chinese: {
-        hanzi: ['...不了'],
-        pinyin: ['bu liǎo'],
+        hanzi: ['多休息'],
+        pinyin: ['duō xiūxi'],
       },
     },
     {
       id: 'sentence41',
       level: 2,
       isFinal: false,
-      korean: '쓸 수 없다(작동할 수 없다)',
+      korean: '푹 쉬어야 해요)',
       chinese: {
-        hanzi: ['用', '不了'],
-        pinyin: ['Yòng', 'bu liǎo'],
+        hanzi: ['应该', '多', '休息'],
+        pinyin: ['yīnggāi', 'duō', 'xiūxi'],
       },
     },
     {
       id: 'sentence41',
       level: 3,
       isFinal: false,
-      korean: '에어컨을 쓸 수 없다',
+      korean: '당신은 푹 쉬어야 해요',
       chinese: {
-        hanzi: ['空调', '用', '不了'],
-        pinyin: ['Kōngtiáo', 'yòng', 'bu liǎo'],
+        hanzi: ['你', '应该', '多', '休息'],
+        pinyin: ['nǐ', 'yīnggāi', 'duō', 'xiūxi'],
       },
     },
     {
       id: 'sentence41',
       level: 4,
       isFinal: false,
-      korean:
-        '(더이상) 쓸 수 없게 되다(작동할 수 없게 되다) ***이 문장의 "了 le"는 변화(…하게 되다)를 나타내요.',
+      korean: '더 중요해요.',
       chinese: {
-        hanzi: ['用', '不了', '了'],
-        pinyin: ['Yòng', 'bu liǎo', 'le'],
+        hanzi: ['更重要'],
+        pinyin: ['gèng zhòngyào'],
       },
     },
     {
       id: 'sentence41',
       level: 5,
-      isFinal: true,
-      korean: '에어컨이 안돼요(에어컨이 쓸 수 없게 되었어요)',
+      isFinal: false,
+      korean: '일보다 더 중요해요.',
       chinese: {
-        hanzi: ['空调', '用', '不了', '了'],
-        pinyin: ['Kōngtiáo', 'yòng', 'bu liǎo', 'le'],
+        hanzi: ['比', '工作', '更', '重要'],
+        pinyin: ['bǐ', 'gōngzuò', 'gèng', 'zhòngyào'],
+      },
+    },
+    {
+      id: 'sentence41',
+      level: 6,
+      isFinal: false,
+      korean: '몸이 일보다 더 중요해요.',
+      chinese: {
+        hanzi: ['身体', '比', '工作', '更', '重要'],
+        pinyin: ['shēntǐ', 'bǐ', 'gōngzuò', 'gèng', 'zhòngyào'],
+      },
+    },
+    {
+      id: 'sentence41',
+      level: 7,
+      isFinal: true,
+      korean: 'A: 당신은 푹 쉬어야 해요, 몸이 일보다 더 중요해요.',
+      chinese: {
+        hanzi: ['你', '应该', '多', '休息', '身体', '比', '工作', '更', '重要'],
+        pinyin: [
+          'nǐ',
+          'yīnggāi',
+          'duō',
+          'xiūxi',
+          'shēntǐ',
+          'bǐ',
+          'gōngzuò',
+          'gèng',
+          'zhòngyào',
+        ],
+      },
+    },
+    {
+      id: 'sentence41',
+      level: 8,
+      isFinal: false,
+      korean: '일이 많아요.',
+      chinese: {
+        hanzi: ['事情', '多'],
+        pinyin: ['shìqing', 'duō'],
+      },
+    },
+    {
+      id: 'sentence41',
+      level: 9,
+      isFinal: false,
+      korean: '일이 너무 많아요.',
+      chinese: {
+        hanzi: ['事情', '太', '多', '了'],
+        pinyin: ['shìqing', 'tài', 'duō', 'le'],
+      },
+    },
+    {
+      id: 'sentence41',
+      level: 10,
+      isFinal: false,
+      korean: '하지만 일이 너무 많아요.',
+      chinese: {
+        hanzi: ['可是', '事情', '太', '多', '了'],
+        pinyin: ['kěshì', 'shìqing', 'tài', 'duō', 'le'],
+      },
+    },
+    {
+      id: 'sentence41',
+      level: 11,
+      isFinal: true,
+      korean: 'B: 저는 알아요, 하지만 일이 너무 많아요.',
+      chinese: {
+        hanzi: ['我', '知道', '可是', '事情', '太', '多', '了'],
+        pinyin: ['wǒ', 'zhīdao', 'kěshì', 'shìqing', 'tài', 'duō', 'le'],
       },
     },
 
@@ -4123,121 +4222,118 @@ const sentenceData = {
       id: 'sentence42',
       level: 1,
       isFinal: false,
-      korean: '나를 도와주다',
+      korean: '밤을 새요.',
       chinese: {
-        hanzi: ['帮', '我'],
-        pinyin: ['Bāng', 'wǒ'],
+        hanzi: ['熬夜'],
+        pinyin: ['áoyè'],
       },
     },
     {
       id: 'sentence42',
       level: 2,
       isFinal: false,
-      korean:
-        '나를 도와 한 번(좀) 보다 ***발생순서대로 배열, 덩어리훈련을 위해 직역해서 어색할 수 있어요',
+      korean: '자꾸 밤을 새요.',
       chinese: {
-        hanzi: ['帮', '我', '看看'],
-        pinyin: ['Bāng', 'wǒ', 'kànkan'],
+        hanzi: ['总是', '熬夜'],
+        pinyin: ['zǒngshì', 'áoyè'],
       },
     },
     {
       id: 'sentence42',
       level: 3,
       isFinal: false,
-      korean:
-        '와서 나를 도와 한 번 보다 ***발생순서대로 배열, 덩어리훈련을 위해 직역해서 어색할 수 있어요',
+      korean: '자꾸 밤새면 안 돼요.',
       chinese: {
-        hanzi: ['来', '帮', '我', '看看'],
-        pinyin: ['Lái', 'bāng', 'wǒ', 'kànkan'],
+        hanzi: ['不应该', '总是', '熬夜'],
+        pinyin: ['bù yīnggāi', 'zǒngshì', 'áoyè'],
       },
     },
     {
       id: 'sentence42',
       level: 4,
       isFinal: false,
-      korean:
-        '어떻게 된 일인지, 무슨 일인지 ***(一)回事 yì huí shì 하나의 일(한 개의 일) ***回 huí 일(事)을 세는 양사 (= 件 jiàn)',
+      korean: '당신은 자꾸 밤새면 안 돼요.',
       chinese: {
-        hanzi: ['怎么', '回事'],
-        pinyin: ['Zěnme', 'huí shì'],
+        hanzi: ['你', '不应该', '总是', '熬夜'],
+        pinyin: ['nǐ', 'bù yīnggāi', 'zǒngshì', 'áoyè'],
       },
     },
     {
       id: 'sentence42',
       level: 5,
       isFinal: false,
-      korean:
-        '어떻게 된 일인지 와서 나를 도와 한 번 보다 ***발생순서대로 배열, 덩어리훈련을 위해 직역해서 어색할 수 있어요',
+      korean: '좋지 않아요.',
       chinese: {
-        hanzi: ['来', '帮', '我', '看看', '怎么', '回事'],
-        pinyin: ['Lái', 'bāng', 'wǒ', 'kànkan', 'zěnme', 'huí shì'],
+        hanzi: ['不好'],
+        pinyin: ['bù hǎo'],
       },
     },
     {
       id: 'sentence42',
       level: 6,
       isFinal: false,
-      korean: '…할 수 있을까요?',
+      korean: '건강에 안 좋아요.',
       chinese: {
-        hanzi: ['能...吗'],
-        pinyin: ['néng ma'],
+        hanzi: ['对', '身体', '不好'],
+        pinyin: ['duì', 'shēntǐ', 'bù hǎo'],
       },
     },
     {
       id: 'sentence42',
       level: 7,
-      isFinal: false,
-      korean:
-        '어떻게 된 일인지 봐주실 수 있을까요? ***발생순서대로 배열, 덩어리훈련을 위해 직역해서 어색할 수 있어요',
+      isFinal: true,
+      korean: '당신은 자꾸 밤새면 안 돼요, 건강에 안 좋아요.',
       chinese: {
-        hanzi: ['能', '来', '帮', '我', '看看', '怎么', '回事', '吗？'],
+        hanzi: ['你', '不应该', '总是', '熬夜', '对身体', '不好'],
         pinyin: [
-          'Néng',
-          'lái',
-          'bāng',
-          'wǒ',
-          'kànkan',
-          'zěnme',
-          'huí shì',
-          'ma',
+          'nǐ',
+          'bù yīnggāi',
+          'zǒngshì',
+          'áoyè',
+          'duì',
+          'shēntǐ',
+          'bù hǎo',
         ],
       },
     },
     {
       id: 'sentence42',
       level: 8,
-      isFinal: true,
-      korean:
-        '에어컨이 안돼요. 어떻게 된 일인지 봐주실 수 있을까요? ***의역이니 집중해서 "발생 순서"대로  배열하기!',
+      isFinal: false,
+      korean: '너무 바빠요.',
       chinese: {
-        hanzi: [
-          '空调',
-          '用',
-          '不了',
-          '了,',
-          '能',
-          '来',
-          '帮',
-          '我',
-          '看看',
-          '怎么',
-          '回事',
-          '吗?',
-        ],
-        pinyin: [
-          'Kōngtiáo',
-          'yòng',
-          'bu liǎo',
-          'le',
-          'néng',
-          'lái',
-          'bāng',
-          'wǒ',
-          'kànkan',
-          'zěnme',
-          'huí shì',
-          'ma',
-        ],
+        hanzi: ['太', '忙', '了'],
+        pinyin: ['tài', 'máng', 'le'],
+      },
+    },
+    {
+      id: 'sentence42',
+      level: 9,
+      isFinal: false,
+      korean: '낮에는 너무 바빠요.',
+      chinese: {
+        hanzi: ['白天', '太', '忙', '了'],
+        pinyin: ['báitiān', 'tài', 'máng', 'le'],
+      },
+    },
+    {
+      id: 'sentence42',
+      level: 10,
+      isFinal: false,
+      korean: '어쩔 수 없어요.(방법이 없어요).',
+      chinese: {
+        hanzi: ['没办法'],
+        pinyin: ['méi bànfǎ'],
+      },
+    },
+    {
+      id: 'sentence42',
+      level: 11,
+      isFinal: true,
+      korean: 'B: 어쩔 수 없어요, 낮에는 너무 바쁘거든요.',
+      chinese: {
+        hanzi: ['没', '办法', '白天', '太', '忙', '了'],
+        pinyin: ['méi', 'bànfǎ', 'báitiān', 'tài', 'máng', 'le'],
       },
     },
 
@@ -4246,32 +4342,100 @@ const sentenceData = {
       id: 'sentence43',
       level: 1,
       isFinal: false,
-      korean: '리모컨',
+      korean: '가야 해요.',
       chinese: {
-        hanzi: ['遥控器'],
-        pinyin: ['Yáokòngqì'],
+        hanzi: ['得走'],
+        pinyin: ['děi zǒu'],
       },
     },
     {
       id: 'sentence43',
       level: 2,
       isFinal: false,
-      korean:
-        '배터리가 없다 ***이 문장의 "了 le"는 변화(…하게 되다)를 나타내요',
+      korean: '[상황의 변화] 이제 가야 해요.',
       chinese: {
-        hanzi: ['没', '电', '了'],
-        pinyin: ['Méi', 'diàn', 'le'],
+        hanzi: ['得', '走', '了'],
+        pinyin: ['děi', 'zǒu', 'le'],
       },
     },
     {
       id: 'sentence43',
       level: 3,
-      isFinal: true,
-      korean:
-        '리모컨 배터리가 없어요 ***遥控器 yáokòngqì 리모컨 电 diàn 전기 遥控器를 遥控(器)이라고 생략할 수 있어요.',
+      isFinal: false,
+      korean: '저는 이제 가야 해요.',
       chinese: {
-        hanzi: ['遥控器', '没', '电', '了'],
-        pinyin: ['Yáokòngqì', 'méi', 'diàn', 'le'],
+        hanzi: ['我', '得', '走', '了'],
+        pinyin: ['wǒ', 'děi', 'zǒu', 'le'],
+      },
+    },
+    {
+      id: 'sentence43',
+      level: 4,
+      isFinal: false,
+      korean: '일이 있어요.',
+      chinese: {
+        hanzi: ['有', '事'],
+        pinyin: ['yǒu', 'shì'],
+      },
+    },
+    {
+      id: 'sentence43',
+      level: 5,
+      isFinal: false,
+      korean: '아직 일이 있어요.',
+      chinese: {
+        hanzi: ['还', '有', '事'],
+        pinyin: ['hái', 'yǒu', 'shì'],
+      },
+    },
+    {
+      id: 'sentence43',
+      level: 6,
+      isFinal: true,
+      korean: 'A: 저는 가야 해요, 집에 아직 일이 있어요.',
+      chinese: {
+        hanzi: ['我', '得', '走', '了', '家里', '还有', '事'],
+        pinyin: ['wǒ', 'děi', 'zǒu', 'le', 'jiā', 'lǐ', 'hái', 'yǒu', 'shì'],
+      },
+    },
+    {
+      id: 'sentence43',
+      level: 7,
+      isFinal: false,
+      korean: '가는 길 조심해요.',
+      chinese: {
+        hanzi: ['路上', '小心'],
+        pinyin: ['lùshang', 'xiǎoxīn'],
+      },
+    },
+    {
+      id: 'sentence43',
+      level: 8,
+      isFinal: false,
+      korean: '당신은 가는 길 조심해요.',
+      chinese: {
+        hanzi: ['你', '路上', '小心'],
+        pinyin: ['nǐ', 'lùshang', 'xiǎoxīn'],
+      },
+    },
+    {
+      id: 'sentence43',
+      level: 9,
+      isFinal: false,
+      korean: '그럼 당신은 가는 길 조심해요.',
+      chinese: {
+        hanzi: ['那', '你', '路上', '小心'],
+        pinyin: ['nà', 'nǐ', 'lùshang', 'xiǎoxīn'],
+      },
+    },
+    {
+      id: 'sentence43',
+      level: 10,
+      isFinal: true,
+      korean: 'B: 알겠어요, 그럼 당신은 가는 길 조심해요.',
+      chinese: {
+        hanzi: ['好的', '那', '你', '路上', '小心'],
+        pinyin: ['hǎo de', 'nà', 'nǐ', 'lùshang', 'xiǎoxīn'],
       },
     },
 
@@ -4280,39 +4444,133 @@ const sentenceData = {
       id: 'sentence44',
       level: 1,
       isFinal: false,
-      korean: '새 배터리 ***电池 Diànchí 건전지, 배터리',
+      korean: '나에게 시집 와.',
       chinese: {
-        hanzi: ['新', '电池'],
-        pinyin: ['Xīn', 'diànchí'],
+        hanzi: ['嫁', '给', '我'],
+        pinyin: ['jià', 'gěi', 'wǒ'],
       },
     },
     {
       id: 'sentence44',
       level: 2,
       isFinal: false,
-      korean: '새 배터리 있어요?',
+      korean: '너는 나에게 시집 와.',
       chinese: {
-        hanzi: ['有', '新', '电池', '吗?'],
-        pinyin: ['Yǒu', 'xīn', 'diànchí', 'ma'],
+        hanzi: ['你', '嫁', '给我'],
+        pinyin: ['nǐ', 'jià', 'gěi', 'wǒ'],
       },
     },
     {
       id: 'sentence44',
       level: 3,
-      isFinal: true,
-      korean: '리모컨 배터리가 없어요. 새 배터리 있어요?',
+      isFinal: false,
+      korean: '너는 나에게 시집 올래(결혼할래)?',
       chinese: {
-        hanzi: ['遥控器', '没', '电', '了，', '有', '新', '电池', '吗？'],
+        hanzi: ['你', '嫁', '给我', '吗'],
+        pinyin: ['nǐ', 'jià', 'gěi', 'wǒ', 'ma'],
+      },
+    },
+    {
+      id: 'sentence44',
+      level: 4,
+      isFinal: true,
+      korean: 'A: 너는 나에게 시집 와 줄래? (결혼해 줄래?)',
+      chinese: {
+        hanzi: ['你', '愿意', '嫁', '给我', '吗'],
+        pinyin: ['nǐ', 'yuànyì', 'jià', 'gěi', 'wǒ', 'ma'],
+      },
+    },
+    {
+      id: 'sentence44',
+      level: 5,
+      isFinal: false,
+      korean: '너를 사랑해.',
+      chinese: {
+        hanzi: ['爱', '你'],
+        pinyin: ['ài', 'nǐ'],
+      },
+    },
+    {
+      id: 'sentence44',
+      level: 6,
+      isFinal: false,
+      korean: '너를 정말 사랑해.',
+      chinese: {
+        hanzi: ['很', '爱', '你'],
+        pinyin: ['hěn', 'ài', 'nǐ'],
+      },
+    },
+    {
+      id: 'sentence44',
+      level: 7,
+      isFinal: false,
+      korean: '진짜 정말 너를 사랑해.',
+      chinese: {
+        hanzi: ['真的', '很', '爱', '你'],
+        pinyin: ['zhēn de', 'hěn', 'ài', 'nǐ'],
+      },
+    },
+    {
+      id: 'sentence44',
+      level: 8,
+      isFinal: false,
+      korean: '나는 진짜 정말 너를 사랑해.',
+      chinese: {
+        hanzi: ['我', '真的', '很', '爱', '你'],
+        pinyin: ['wǒ', 'zhēn de', 'hěn', 'ài', 'nǐ'],
+      },
+    },
+    {
+      id: 'sentence44',
+      level: 9,
+      isFinal: true,
+      korean:
+        'A: 너는 나에게 시집 와 줄래(결혼해 줄래)? 나는 진짜 정말 너를 사랑해.',
+      chinese: {
+        hanzi: ['你', '愿意', '嫁', '给我', '吗', '我', '真的很', '爱', '你'],
         pinyin: [
-          'Yáokòngqì',
-          'méi',
-          'diàn',
-          'le',
-          'yǒu',
-          'xīn',
-          'diànchí',
+          'nǐ',
+          'yuànyì',
+          'jià',
+          'gěi',
+          'wǒ',
           'ma',
+          'wǒ',
+          'zhēn de',
+          'hěn',
+          'ài',
+          'nǐ',
         ],
+      },
+    },
+    {
+      id: 'sentence44',
+      level: 10,
+      isFinal: false,
+      korean: '당연히 원해.',
+      chinese: {
+        hanzi: ['当然', '愿意'],
+        pinyin: ['dāngrán', 'yuànyì'],
+      },
+    },
+    {
+      id: 'sentence44',
+      level: 11,
+      isFinal: false,
+      korean: '나는 당연히 원해.',
+      chinese: {
+        hanzi: ['我', '当然', '愿意'],
+        pinyin: ['wǒ', 'dāngrán', 'yuànyì'],
+      },
+    },
+    {
+      id: 'sentence44',
+      level: 12,
+      isFinal: true,
+      korean: 'B: 나는 당연히 원하지!',
+      chinese: {
+        hanzi: ['我', '当然', '愿意', '啊'],
+        pinyin: ['wǒ', 'dāngrán', 'yuànyì', 'a'],
       },
     },
 
@@ -4321,72 +4579,273 @@ const sentenceData = {
       id: 'sentence45',
       level: 1,
       isFinal: false,
-      korean: '인터넷이 안 좋다 ***网 wǎng 인터넷',
+      korean: '생각을 바꾸다.',
       chinese: {
-        hanzi: ['网', '不好'],
-        pinyin: ['Wǎng', 'bù hǎo'],
+        hanzi: ['改变', '想法'],
+        pinyin: ['gǎibiàn', 'xiǎngfǎ'],
       },
     },
     {
       id: 'sentence45',
       level: 2,
       isFinal: false,
-      korean: '여기 인터넷은 안 좋다',
+      korean: '자신의 생각을 바꾸다.',
       chinese: {
-        hanzi: ['这儿', '网', '不好'],
-        pinyin: ['Zhèr', 'Wǎng', 'bù hǎo'],
+        hanzi: ['改变', '自己', ' 的', '想法'],
+        pinyin: ['gǎibiàn', 'zìjǐ', 'de', 'xiǎngfǎ'],
       },
     },
     {
       id: 'sentence45',
       level: 3,
-      isFinal: true,
-      korean: '여기 인터넷은 안 좋나요?',
+      isFinal: false,
+      korean: '자신의 생각을 바꾸길 원하지 않아.',
       chinese: {
-        hanzi: ['这儿', '网', '不好', '吗？'],
-        pinyin: ['Zhèr', 'Wǎng', 'bù hǎo', 'ma'],
+        hanzi: ['不愿意', '改变', '自己', ' 的', '想法'],
+        pinyin: ['bù yuànyì', 'gǎibiàn', 'zìjǐ', 'de', 'xiǎngfǎ'],
       },
     },
-
+    {
+      id: 'sentence45',
+      level: 4,
+      isFinal: false,
+      korean: '어떤 사람들은 자신의 생각을 바꾸길 원하지 않아.',
+      chinese: {
+        hanzi: ['有些人', '不愿意', '改变', '自己', ' 的', '想法'],
+        pinyin: ['yǒuxiē rén', 'bù yuànyì', 'gǎibiàn', 'zìjǐ', 'de', 'xiǎngfǎ'],
+      },
+    },
+    {
+      id: 'sentence45',
+      level: 5,
+      isFinal: false,
+      korean: '그 사람들은 ......라고 생각하죠.',
+      chinese: {
+        hanzi: ['他们', '觉得......'],
+        pinyin: ['tāmen', 'juéde'],
+      },
+    },
+    {
+      id: 'sentence45',
+      level: 6,
+      isFinal: false,
+      korean: '그 사람들은 항상 ......라고 생각해.',
+      chinese: {
+        hanzi: ['他们', '总', '觉得......'],
+        pinyin: ['tāmen', 'zǒng', 'juéde'],
+      },
+    },
+    {
+      id: 'sentence45',
+      level: 7,
+      isFinal: false,
+      korean: '자신이 옳다(맞다).',
+      chinese: {
+        hanzi: ['自己', '是', '对', '的'],
+        pinyin: ['zìjǐ', 'shì', 'duì', 'de'],
+      },
+    },
+    {
+      id: 'sentence45',
+      level: 8,
+      isFinal: false,
+      korean: '그 사람들은 항상 자신이 옳다고 생각해.',
+      chinese: {
+        hanzi: ['他们', '总', '觉得', '自己', '是', '对', '的'],
+        pinyin: ['tāmen', 'zǒng', 'juéde', 'zìjǐ', 'shì', 'duì', 'de'],
+      },
+    },
+    {
+      id: 'sentence45',
+      level: 9,
+      isFinal: true,
+      korean:
+        'A: 어떤 사람들은 자신의 생각을 바꾸길 원하지 않아. 그 사람들은 항상 자신이 옳다고 생각해.',
+      chinese: {
+        hanzi: [
+          '有些人',
+          '不愿意',
+          '改变',
+          '自己',
+          ' 的',
+          '想法',
+          '他们',
+          '总',
+          '觉得',
+          '自己',
+          '是',
+          '对',
+          '的',
+        ],
+        pinyin: [
+          'yǒuxiē rén',
+          'bù yuànyì',
+          'gǎibiàn',
+          'zìjǐ',
+          'de',
+          'xiǎngfǎ',
+          'tāmen',
+          'zǒng',
+          'juéde',
+          'zìjǐ',
+          'shì',
+          'duì',
+          'de',
+        ],
+      },
+    },
+    {
+      id: 'sentence45',
+      level: 10,
+      isFinal: false,
+      korean: '다 있어요.',
+      chinese: {
+        hanzi: ['都', '有'],
+        pinyin: ['dōu', 'yǒu'],
+      },
+    },
+    {
+      id: 'sentence45',
+      level: 11,
+      isFinal: false,
+      korean: '어디에나 다 있어요.',
+      chinese: {
+        hanzi: ['哪里', '都', '有'],
+        pinyin: ['nǎlǐ', 'dōu', 'yǒu'],
+      },
+    },
+    {
+      id: 'sentence45',
+      level: 12,
+      isFinal: true,
+      korean: 'B: 이런 사람은 어디에나 다 있지.',
+      chinese: {
+        hanzi: ['这', '种', '人', '哪里', '都', '有'],
+        pinyin: ['zhè', 'zhǒng', 'rén', 'nǎlǐ', 'dōu', 'yǒu'],
+      },
+    },
+  ],
+  day10: [
     // 46번
     {
       id: 'sentence46',
       level: 1,
       isFinal: false,
-      korean: '원래(부터) ***本来 běnlái 원래 就 jiù 바로',
+      korean: '스카이다이빙하다.',
       chinese: {
-        hanzi: ['本来就'],
-        pinyin: ['Běnlái jiù'],
+        hanzi: ['跳伞'],
+        pinyin: ['tiàosǎn'],
       },
     },
     {
       id: 'sentence46',
       level: 2,
       isFinal: false,
-      korean: '원래 안 좋다',
+      korean: '스카이다이빙 할 수 있겠다(해볼 용기 있다).',
       chinese: {
-        hanzi: ['本来就', '不好'],
-        pinyin: ['Běnlái jiù', 'bù hǎo'],
+        hanzi: ['敢', '跳伞'],
+        pinyin: ['gǎn', 'tiàosǎn'],
       },
     },
     {
       id: 'sentence46',
       level: 3,
       isFinal: false,
-      korean: '여기 인터넷은 원래 안 좋다',
+      korean: '너는 스카이다이빙 할 수 있겠어(해볼 용기 있어)?',
       chinese: {
-        hanzi: ['这儿', '网', '本来就', '不好'],
-        pinyin: ['Zhèr', 'Wǎng', 'běnlái jiù', 'bù hǎo'],
+        hanzi: ['你', '敢', '跳伞', '吗'],
+        pinyin: ['nǐ', 'gǎn', 'tiàosǎn', 'ma'],
       },
     },
     {
       id: 'sentence46',
       level: 4,
-      isFinal: true,
-      korean: '여기 인터넷은 원래 안 좋나요?',
+      isFinal: false,
+      korean: '되게 짜릿하다(아주 짜릿하다).',
       chinese: {
-        hanzi: ['这儿', '网', '本来就', '不好', '吗？'],
-        pinyin: ['Zhèr', 'Wǎng', 'běnlái jiù', 'bù hǎo', 'ma'],
+        hanzi: ['很', '刺激'],
+        pinyin: ['hěn', 'cìjī'],
+      },
+    },
+    {
+      id: 'sentence46',
+      level: 5,
+      isFinal: false,
+      korean: '듣자 하니 짜릿하대.',
+      chinese: {
+        hanzi: ['听说', '很', '刺激'],
+        pinyin: ['tīngshuō', 'hěn', 'cìjī'],
+      },
+    },
+    {
+      id: 'sentence46',
+      level: 6,
+      isFinal: true,
+      korean:
+        'A: 너는 스카이다이빙 할 수 있겠어(해볼 용기 있어)? 되게 짜릿하다(아주 짜릿하다).',
+      chinese: {
+        hanzi: ['你', '敢', '跳伞', '吗', '听说', '很', '刺激'],
+        pinyin: ['nǐ', 'gǎn', 'tiàosǎn', 'ma', 'tīngshuō', 'hěn', 'cìjī'],
+      },
+    },
+    {
+      id: 'sentence46',
+      level: 7,
+      isFinal: false,
+      korean: '[자신 있게 대답] 할 수 있지!',
+      chinese: {
+        hanzi: ['敢', '啊'],
+        pinyin: ['gǎn', 'a'],
+      },
+    },
+    {
+      id: 'sentence46',
+      level: 8,
+      isFinal: false,
+      korean: '한번 해보다.',
+      chinese: {
+        hanzi: ['试试'],
+        pinyin: ['shìshi'],
+      },
+    },
+    {
+      id: 'sentence46',
+      level: 9,
+      isFinal: false,
+      korean: '한 번 해보고 싶어.',
+      chinese: {
+        hanzi: ['想', '试试'],
+        pinyin: ['xiǎng', 'shìshi'],
+      },
+    },
+    {
+      id: 'sentence46',
+      level: 10,
+      isFinal: false,
+      korean: '계속 한 번 해보고 싶었어.',
+      chinese: {
+        hanzi: ['一直', '想', '试试'],
+        pinyin: ['yìzhí', 'xiǎng', 'shìshi'],
+      },
+    },
+    {
+      id: 'sentence46',
+      level: 11,
+      isFinal: false,
+      korean: '나는 계속 한 번 해보고 싶었어.',
+      chinese: {
+        hanzi: ['我', '一直', '想', '试试'],
+        pinyin: ['wǒ', 'yìzhí', 'xiǎng', 'shìshi'],
+      },
+    },
+    {
+      id: 'sentence46',
+      level: 12,
+      isFinal: true,
+      korean: 'B: 할 수 있지! 나는 계속 한 번 해보고 싶었어.',
+      chinese: {
+        hanzi: ['敢', '啊', '我', '一直', '想', '试试'],
+        pinyin: ['gǎn', 'a', 'wǒ', 'yìzhí', 'xiǎng', 'shìshi'],
       },
     },
 
@@ -4395,145 +4854,266 @@ const sentenceData = {
       id: 'sentence47',
       level: 1,
       isFinal: false,
-      korean: '빌리다',
+      korean: '밤길을 걸어요.',
       chinese: {
-        hanzi: ['借'],
-        pinyin: ['Jiè'],
+        hanzi: ['走夜路'],
+        pinyin: ['zǒu yèlù'],
       },
     },
     {
       id: 'sentence47',
       level: 2,
       isFinal: false,
-      korean: '보조 충전기를 빌리다',
+      korean: '혼자 밤길을 걸어요.',
       chinese: {
-        hanzi: ['借', '充电宝'],
-        pinyin: ['Jiè', 'chōngdiànbǎo'],
+        hanzi: ['一个人', '走', '夜路'],
+        pinyin: ['yígè rén', 'zǒu', 'yèlù'],
       },
     },
     {
       id: 'sentence47',
       level: 3,
       isFinal: false,
-      korean: '좀(한 번) 빌리다',
+      korean: '나는 혼자 밤길을 걷지 못하겠어.',
       chinese: {
-        hanzi: ['借', '一下'],
-        pinyin: ['Jiè', 'yíxià'],
+        hanzi: ['我', '不敢', '一个人', '走', '夜路'],
+        pinyin: ['wǒ', 'bù gǎn', 'yígè rén', 'zǒu', 'yèlù'],
       },
     },
     {
       id: 'sentence47',
       level: 4,
-      isFinal: true,
-      korean: '보조 충전기 좀 빌려줘',
+      isFinal: false,
+      korean: '집에 가요.',
       chinese: {
-        hanzi: ['借', '一下', '充电宝'],
-        pinyin: ['Jiè', 'yíxià', 'chōngdiànbǎo'],
+        hanzi: ['回家'],
+        pinyin: ['huí jiā'],
       },
     },
+    {
+      id: 'sentence47',
+      level: 5,
+      isFinal: false,
+      korean: '택시를 타고 집에 가.',
+      chinese: {
+        hanzi: ['叫', '车', '回', '家'],
+        pinyin: ['jiào', 'chē', 'huí', 'jiā'],
+      },
+    },
+    {
+      id: 'sentence47',
+      level: 6,
+      isFinal: false,
+      korean: '자주 택시를 타고 집에 가.',
+      chinese: {
+        hanzi: ['常常', '叫', '车', '回', '家'],
+        pinyin: ['chángcháng', 'jiào', 'chē', 'huí', 'jiā'],
+      },
+    },
+    {
+      id: 'sentence47',
+      level: 7,
+      isFinal: false,
+      korean: '……, 그래서 자주 택시를 타고 집에 가.',
+      chinese: {
+        hanzi: ['……, 所以', '常常', '叫', '车', '回', '家'],
+        pinyin: ['……, suǒyǐ', 'chángcháng', 'jiào', 'chē', 'huí', 'jiā'],
+      },
+    },
+    {
+      id: 'sentence47',
+      level: 8,
+      isFinal: true,
+      korean:
+        'A: 저는 혼자 밤길을 걷지 못하겠어요. 그래서 자주 택시를 타고 집에 가요.',
+      chinese: {
+        hanzi: [
+          '我',
+          '不敢',
+          '一个人',
+          '走',
+          '夜路',
+          '所以',
+          '常常',
+          '叫',
+          '车',
+          '回',
+          '家',
+        ],
+        pinyin: [
+          'wǒ',
+          'bù gǎn',
+          'yígè rén',
+          'zǒu',
+          'yèlù',
+          'suǒyǐ',
+          'chángcháng',
+          'jiào',
+          'chē',
+          'huí',
+          'jiā',
+        ],
+      },
+    },
+    {
+      id: 'sentence47',
+      level: 9,
+      isFinal: false,
+      korean: '너무 무서워.',
+      chinese: {
+        hanzi: ['太', '可怕', '了'],
+        pinyin: ['tài', 'kěpà', 'le'],
+      },
+    },
+    {
+      id: 'sentence47',
+      level: 10,
+      isFinal: false,
+      korean: '혼자 다니는 건 너무 무서워.',
+      chinese: {
+        hanzi: ['一个人', '走', '太', '可怕', '了'],
+        pinyin: ['yígè rén', 'zǒu', 'tài', 'kěpà', 'le'],
+      },
+    },
+    {
+      id: 'sentence47',
+      level: 11,
+      isFinal: false,
+      korean: '밤에 혼자 다니는 건 너무 무서워요.',
+      chinese: {
+        hanzi: ['晚上', '一个人', '走', '太', '可怕', '了'],
+        pinyin: ['wǎnshang', 'yígè rén', 'zǒu', 'tài', 'kěpà', 'le'],
+      },
+    },
+    {
+      id: 'sentence47',
+      level: 12,
+      isFinal: true,
+      korean: 'B: 나도 그래, 밤에 혼자 다니는 건 너무 무서워.',
+      chinese: {
+        hanzi: ['我', '也是', '晚上', '一个人', '走', '太', '可怕', '了'],
+        pinyin: [
+          'wǒ',
+          'yě shì',
+          'wǎnshang',
+          'yígè rén',
+          'zǒu',
+          'tài',
+          'kěpà',
+          'le',
+        ],
+      },
+    },
+
     // 48번
     {
       id: 'sentence48',
       level: 1,
       isFinal: false,
-      korean: '…할 수 있을까요?',
+      korean: '후회해.',
       chinese: {
-        hanzi: ['能...吗'],
-        pinyin: ['néng ma'],
+        hanzi: ['后悔'],
+        pinyin: ['hòuhuǐ'],
       },
     },
     {
       id: 'sentence48',
       level: 2,
       isFinal: false,
-      korean: '너의 보조 충전기',
+      korean: '후회할 거야.',
       chinese: {
-        hanzi: ['你', '的', '充电宝'],
-        pinyin: ['Nǐ', 'de', 'chōngdiànbǎo'],
+        hanzi: ['会', '后悔', '的'],
+        pinyin: ['huì', 'hòuhuǐ', 'de'],
       },
     },
     {
       id: 'sentence48',
       level: 3,
       isFinal: false,
-      korean: '너의 보조충전기를 좀 빌릴 수 있을까?',
+      korean: '나중에 후회할 거야.',
       chinese: {
-        hanzi: ['能', '借', '一下', '你', '的', '充电宝', '吗？'],
-        pinyin: ['Néng', 'jiè', 'yíxià', 'nǐ', 'de', 'chōngdiànbǎo', 'ma'],
+        hanzi: ['以后', '会', '后悔', '的'],
+        pinyin: ['yǐhòu', 'huì', 'hòuhuǐ', 'de'],
       },
     },
     {
       id: 'sentence48',
       level: 4,
       isFinal: false,
-      korean: '꺼지다',
+      korean: '그렇지 않으면 나중에 후회할 거야.',
       chinese: {
-        hanzi: ['关机'],
-        pinyin: ['Guānjī'],
+        hanzi: ['不然', '以后', '会', '后悔', '的'],
+        pinyin: ['bùrán', 'yǐhòu', 'huì', 'hòuhuǐ', 'de'],
       },
     },
     {
       id: 'sentence48',
       level: 5,
       isFinal: false,
-      korean: '꺼졌다',
+      korean: '반드시 와야 해.',
       chinese: {
-        hanzi: ['关机', '了'],
-        pinyin: ['Guānjī', 'le'],
+        hanzi: ['必须', '来'],
+        pinyin: ['bìxū', 'lái'],
       },
     },
     {
       id: 'sentence48',
       level: 6,
       isFinal: false,
-      korean: '내 핸드폰',
+      korean: '너는 반드시 와야 해.',
       chinese: {
-        hanzi: ['我', '手机'],
-        pinyin: ['Wǒ', 'shǒujī'],
+        hanzi: ['你', '必须', '来'],
+        pinyin: ['nǐ', 'bìxū', 'lái'],
       },
     },
     {
       id: 'sentence48',
       level: 7,
-      isFinal: false,
-      korean: '내 핸드폰이 꺼졌다',
+      isFinal: true,
+      korean: 'A: 너는 반드시 와야 해. 그렇지 않으면 나중에 후회할 거야.',
       chinese: {
-        hanzi: ['我', '手机', '关机', '了'],
-        pinyin: ['Wǒ', 'shǒujī', 'guānjī', 'le'],
+        hanzi: ['你', '必须', '来', '不然', '以后', '会', '后悔', '的'],
+        pinyin: ['nǐ', 'bìxū', 'lái', 'bùrán', 'yǐhòu', 'huì', 'hòuhuǐ', 'de'],
       },
     },
     {
       id: 'sentence48',
       level: 8,
-      isFinal: true,
-      korean: '내 핸드폰이 꺼졌는데, 보조충전기 좀 빌릴 수 있을까?',
+      isFinal: false,
+      korean: '꼭 갈게.',
       chinese: {
-        hanzi: [
-          '我',
-          '手机',
-          '关机',
-          '了,',
-          '能',
-          '借',
-          '一下',
-          '你',
-          '的',
-          '充电宝',
-          '吗?',
-        ],
-        pinyin: [
-          'Wǒ',
-          'shǒujī',
-          'guānjī',
-          'le',
-          'néng',
-          'jiè',
-          'yíxià',
-          'nǐ',
-          'de',
-          'chōngdiànbǎo',
-          'ma',
-        ],
+        hanzi: ['一定', '去'],
+        pinyin: ['yídìng', 'qù'],
+      },
+    },
+    {
+      id: 'sentence48',
+      level: 9,
+      isFinal: false,
+      korean: '나 꼭 갈게.',
+      chinese: {
+        hanzi: ['我', '一定', '去'],
+        pinyin: ['wǒ', 'yídìng', 'qù'],
+      },
+    },
+    {
+      id: 'sentence48',
+      level: 10,
+      isFinal: false,
+      korean: '그럼 나 꼭 갈게.',
+      chinese: {
+        hanzi: ['那', '我', '一定', '去'],
+        pinyin: ['nà', 'wǒ', 'yídìng', 'qù'],
+      },
+    },
+    {
+      id: 'sentence48',
+      level: 11,
+      isFinal: true,
+      korean: 'B: 알겠어, 그럼 나 꼭 갈게.',
+      chinese: {
+        hanzi: ['好吧', '那', '我', '一定', '去'],
+        pinyin: ['hǎo ba', 'nà', 'wǒ', 'yídìng', 'qù'],
       },
     },
 
@@ -4542,52 +5122,129 @@ const sentenceData = {
       id: 'sentence49',
       level: 1,
       isFinal: false,
-      korean: '기사님',
+      korean: '읽을 만해요(읽어 볼 가치가 있어요).',
       chinese: {
-        hanzi: ['师傅'],
-        pinyin: ['Shīfu'],
+        hanzi: ['值得', '看'],
+        pinyin: ['zhídé', 'kàn'],
       },
     },
     {
       id: 'sentence49',
       level: 2,
       isFinal: false,
-      korean: '정차하다, 멈추다',
+      korean: '이 책은 읽을 만해요(읽어 볼 가치가 있어요).',
       chinese: {
-        hanzi: ['停'],
-        pinyin: ['Tíng'],
+        hanzi: ['这本书', '值得', '看'],
+        pinyin: ['zhè běn shū', 'zhídé', 'kàn'],
       },
     },
     {
       id: 'sentence49',
       level: 3,
       isFinal: false,
-      korean: '호텔 입구에 세워주세요 ***酒店 jiǔdiàn 호텔 , 门口 ménkǒu 입구',
+      korean: '무언가를 배웠어요.',
       chinese: {
-        hanzi: ['停', '酒店', '门口'],
-        pinyin: ['Tíng', 'jiǔdiàn', 'ménkǒu'],
+        hanzi: ['学到', '东西'],
+        pinyin: ['xuédào', 'dōngxi'],
       },
     },
     {
       id: 'sentence49',
       level: 4,
       isFinal: false,
-      korean:
-        '죄송하지만 호텔 앞에서 세워주세요 ***麻烦 máfan 실례지만, 죄송하지만',
+      korean: '많은 것',
       chinese: {
-        hanzi: ['麻烦', '停', '酒店', '门口'],
-        pinyin: ['Máfan', 'tíng', 'jiǔdiàn', 'ménkǒu'],
+        hanzi: ['很多', '东西'],
+        pinyin: ['hěn duō', 'dōngxi'],
       },
     },
     {
       id: 'sentence49',
       level: 5,
+      isFinal: false,
+      korean: '많은 걸 배웠어요.',
+      chinese: {
+        hanzi: ['学到', '很多', '东西'],
+        pinyin: ['xuédào', 'hěn duō', 'dōngxi'],
+      },
+    },
+    {
+      id: 'sentence49',
+      level: 6,
+      isFinal: false,
+      korean: '많은 걸 배울 수 있어요.',
+      chinese: {
+        hanzi: ['能', '学到', '很多', '东西'],
+        pinyin: ['néng', 'xuédào', 'hěn duō', 'dōngxi'],
+      },
+    },
+    {
+      id: 'sentence49',
+      level: 7,
       isFinal: true,
       korean:
-        '기사님, 호텔 앞에서 세워주세요 ***"停酒店门口就行 tíng jiǔdiàn ménkǒu jiùxíng"라고도 말해요.',
+        'A: 이 책은 읽을 만해요(읽어 볼 가치가 있어요), 많은 걸 배울 수 있어요.',
       chinese: {
-        hanzi: ['师傅', '麻烦', '停', '酒店', '门口'],
-        pinyin: ['Shīfu', 'máfan', 'tíng', 'jiǔdiàn', 'ménkǒu'],
+        hanzi: ['这本书', '值得', '看', '能', '学到', '很多', '东西'],
+        pinyin: [
+          'zhè běn shū',
+          'zhídé',
+          'kàn',
+          'néng',
+          'xuédào',
+          'hěn duō',
+          'dōngxi',
+        ],
+      },
+    },
+    {
+      id: 'sentence49',
+      level: 8,
+      isFinal: false,
+      korean: '한번 봐요.',
+      chinese: {
+        hanzi: ['看看'],
+        pinyin: ['kànkan'],
+      },
+    },
+    {
+      id: 'sentence49',
+      level: 9,
+      isFinal: false,
+      korean: '한번 보러 가요.',
+      chinese: {
+        hanzi: ['去', '看看'],
+        pinyin: ['qù', 'kànkan'],
+      },
+    },
+    {
+      id: 'sentence49',
+      level: 10,
+      isFinal: false,
+      korean: '저도 한번 보러 가야겠어요.',
+      chinese: {
+        hanzi: ['我', '也', '去', '看看'],
+        pinyin: ['wǒ', 'yě', 'qù', 'kànkan'],
+      },
+    },
+    {
+      id: 'sentence49',
+      level: 11,
+      isFinal: false,
+      korean: '그럼 저도 한번 보러 가야겠어요.',
+      chinese: {
+        hanzi: ['那', '我', '也', '去', '看看'],
+        pinyin: ['nà', 'wǒ', 'yě', 'qù', 'kànkan'],
+      },
+    },
+    {
+      id: 'sentence49',
+      level: 12,
+      isFinal: true,
+      korean: 'B: 그래요? 그럼 저도 한번 보러 가야겠어요.',
+      chinese: {
+        hanzi: ['是吗？', '那', '我', '也', '去', '看看'],
+        pinyin: ['shì ma?', 'nà', 'wǒ', 'yě', 'qù', 'kànkan'],
       },
     },
 
@@ -4596,2463 +5253,100 @@ const sentenceData = {
       id: 'sentence50',
       level: 1,
       isFinal: false,
-      korean:
-        '좀 많다 *** 有点... yǒudiǎn 조금, 좀(불만·불평을 하는 상황) 多 duō 많다',
+      korean: '화낼 만해.',
       chinese: {
-        hanzi: ['有点', '多'],
-        pinyin: ['Yǒudiǎn', 'duō'],
+        hanzi: ['值得', '生气'],
+        pinyin: ['zhídé', 'shēngqì'],
       },
     },
     {
       id: 'sentence50',
       level: 2,
       isFinal: false,
-      korean: '짐이 좀 많아요 ***行李 xíngli 짐',
+      korean: '화낼 만한 게 아니야.',
       chinese: {
-        hanzi: ['行李', '有点', '多'],
-        pinyin: ['Xíngli', 'yǒudiǎn', 'duō'],
+        hanzi: ['不值得', '生气'],
+        pinyin: ['bù zhídé', 'shēngqì'],
       },
     },
     {
       id: 'sentence50',
       level: 3,
       isFinal: false,
-      korean: '제 짐이 좀 많아요',
+      korean: '전혀 화낼 만한 게 아니야.',
       chinese: {
-        hanzi: ['我', '行李', '有点', '多'],
-        pinyin: ['Wǒ', 'xíngli', 'yǒudiǎn', 'duō'],
+        hanzi: ['根本', '不值得', '生气'],
+        pinyin: ['gēnběn', 'bù zhídé', 'shēngqì'],
       },
     },
     {
       id: 'sentence50',
       level: 4,
-      isFinal: true,
-      korean: '기사님, 호텔 앞에서 세워주세요. 제 짐이 좀 많아서요',
-      chinese: {
-        hanzi: [
-          '师傅,',
-          '麻烦',
-          '停',
-          '酒店',
-          '门口,',
-          '我',
-          '行李',
-          '有点',
-          '多',
-        ],
-        pinyin: [
-          'Shīfu',
-          'máfan',
-          'tíng',
-          'jiǔdiàn',
-          'ménkǒu',
-          'wǒ',
-          'xíngli',
-          'yǒudiǎn',
-          'duō',
-        ],
-      },
-    },
-  ],
-
-  day6: [
-    // 51번
-    {
-      id: 'sentence51',
-      level: 1,
       isFinal: false,
-      korean: '기사님',
+      korean: '이런 사소한 일.',
       chinese: {
-        hanzi: ['师傅'],
-        pinyin: ['Shīfu'],
+        hanzi: ['这种小事'],
+        pinyin: ['zhè zhǒng xiǎoshì'],
       },
     },
     {
-      id: 'sentence51',
-      level: 2,
-      isFinal: false,
-      korean: '기사님, 실례지만(죄송하지만) ……(해주세요)',
-      chinese: {
-        hanzi: ['师傅，', '麻烦...'],
-        pinyin: ['Shīfu', 'máfan'],
-      },
-    },
-    {
-      id: 'sentence51',
-      level: 3,
-      isFinal: false,
-      korean: '조금(좀) 빨리',
-      chinese: {
-        hanzi: ['快点'],
-        pinyin: ['Kuài diǎn'],
-      },
-    },
-    {
-      id: 'sentence51',
-      level: 4,
-      isFinal: false,
-      korean: '당신 조금(좀) 빨리',
-      chinese: {
-        hanzi: ['您', '快点'],
-        pinyin: ['Nín', 'kuài diǎn'],
-      },
-    },
-    {
-      id: 'sentence51',
+      id: 'sentence50',
       level: 5,
       isFinal: false,
-      korean: '죄송하지만 당신은 조금 빨리',
+      korean: '이런 사소한 일은 전혀 화낼 만한 게 아니야.',
       chinese: {
-        hanzi: ['麻烦', '您', '快点'],
-        pinyin: ['Máfan', 'nín', 'kuài diǎn'],
+        hanzi: ['这种小事', '根本', '不值得', '生气'],
+        pinyin: ['zhè zhǒng xiǎoshì', 'gēnběn', 'bù zhídé', 'shēngqì'],
       },
     },
     {
-      id: 'sentence51',
-      level: 6,
-      isFinal: true,
-      korean:
-        '기사님, 죄송하지만 조금 빨리 가주세요 ***중국어에서 "가주세요"는 생략되었어요.',
-      chinese: {
-        hanzi: ['师傅，', '麻烦', '您', '快点'],
-        pinyin: ['Shīfu', 'máfan', 'nín', 'kuài diǎn'],
-      },
-    },
-
-    // 52번
-    {
-      id: 'sentence52',
-      level: 1,
-      isFinal: false,
-      korean: '시간이 급하다, 시간을 서두르다',
-      chinese: {
-        hanzi: ['赶', '时间'],
-        pinyin: ['Gǎn', 'shíjiān'],
-      },
-    },
-    {
-      id: 'sentence52',
-      level: 2,
-      isFinal: false,
-      korean: '제가 시간이 급해서요',
-      chinese: {
-        hanzi: ['我', '赶', '时间'],
-        pinyin: ['Wǒ', 'gǎn', 'shíjiān'],
-      },
-    },
-    {
-      id: 'sentence52',
-      level: 3,
-      isFinal: false,
-      korean: '기사님, 제가 시간이 급해서요',
-      chinese: {
-        hanzi: ['师傅，', '我', '赶', '时间'],
-        pinyin: ['Shīfu', 'wǒ', 'gǎn', 'shíjiān'],
-      },
-    },
-    {
-      id: 'sentence52',
-      level: 4,
-      isFinal: true,
-      korean:
-        '기사님, 제가 시간이 급해서요. 죄송하지만 조금 빨리 가주세요 ***중국어에서 "가주세요"는 생략되었어요.',
-      chinese: {
-        hanzi: ['师傅，', '我', '赶', '时间，', '麻烦', '您', '快点'],
-        pinyin: ['Shīfu', 'wǒ', 'gǎn', 'shíjiān', 'máfan', 'nín', 'kuài diǎn'],
-      },
-    },
-
-    // 53번
-    {
-      id: 'sentence53',
-      level: 1,
-      isFinal: false,
-      korean: '나를 기다리다',
-      chinese: {
-        hanzi: ['等', '我'],
-        pinyin: ['Děng', 'wǒ'],
-      },
-    },
-    {
-      id: 'sentence53',
-      level: 2,
-      isFinal: false,
-      korean:
-        '잠깐 저를 기다려주세요 ***我 wǒ, 你 nǐ, 他(她) tā와 같은 인칭대명사는 "等"과 "一下" 사이에 넣기로 약속!',
-      chinese: {
-        hanzi: ['等', '我', '一下'],
-        pinyin: ['Děng', 'wǒ', 'yíxià'],
-      },
-    },
-    {
-      id: 'sentence53',
-      level: 3,
-      isFinal: false,
-      korean: '과일가게 앞에서 저를 잠깐 기다려주실 수 있으실까요?',
-      chinese: {
-        hanzi: ['能', '在', '水果店', '门口', '等', '我', '一下', '吗？'],
-        pinyin: [
-          'Néng',
-          'zài',
-          'shuǐguǒdiàn',
-          'ménkǒu',
-          'děng',
-          'wǒ',
-          'yíxià',
-          'ma',
-        ],
-      },
-    },
-    {
-      id: 'sentence53',
-      level: 4,
-      isFinal: true,
-      korean: '기사님, 과일가게 앞에서 저를 잠깐 기다려주실 수 있으실까요?',
-      chinese: {
-        hanzi: [
-          '师傅，',
-          '能',
-          '在',
-          '水果店',
-          '门口',
-          '等',
-          '我',
-          '一下',
-          '吗？',
-        ],
-        pinyin: [
-          'Shīfu',
-          'néng',
-          'zài',
-          'shuǐguǒdiàn',
-          'ménkǒu',
-          'děng',
-          'wǒ',
-          'yíxià',
-          'ma',
-        ],
-      },
-    },
-
-    // 54번
-    {
-      id: 'sentence54',
-      level: 1,
-      isFinal: false,
-      korean: '과일을 팔다',
-      chinese: {
-        hanzi: ['卖', '水果'],
-        pinyin: ['Mài', 'shuǐguǒ'],
-      },
-    },
-    {
-      id: 'sentence54',
-      level: 2,
-      isFinal: false,
-      korean: '과일 파는 (곳)',
-      chinese: {
-        hanzi: ['卖', '水果', '的'],
-        pinyin: ['Mài', 'shuǐguǒ', 'de'],
-      },
-    },
-    {
-      id: 'sentence54',
-      level: 3,
-      isFinal: false,
-      korean: '과일 파는 데도 없어서요',
-      chinese: {
-        hanzi: ['都', '没有', '卖', '水果', '的'],
-        pinyin: ['Dōu', 'méiyǒu', 'mài', 'shuǐguǒ', 'de'],
-      },
-    },
-    {
-      id: 'sentence54',
-      level: 4,
-      isFinal: false,
-      korean: '호텔 근처 ***酒店 jiǔdiàn 호텔 附近 fùjìn 근처, 부근',
-      chinese: {
-        hanzi: ['酒店', '附近'],
-        pinyin: ['jiǔdiàn', 'fùjìn'],
-      },
-    },
-    {
-      id: 'sentence54',
-      level: 5,
-      isFinal: false,
-      korean: '내가 묵는 호텔 근처',
-      chinese: {
-        hanzi: ['我', '住', '的', '酒店', '附近'],
-        pinyin: ['wǒ', 'zhù', 'de', 'jiǔdiàn', 'fùjìn'],
-      },
-    },
-    {
-      id: 'sentence54',
+      id: 'sentence50',
       level: 6,
       isFinal: false,
-      korean: '제가 묵는 호텔 근처에는 과일 파는 데도 없어서요.',
+      korean: '지나갔어.',
       chinese: {
-        hanzi: [
-          '我',
-          '住',
-          '的',
-          '酒店',
-          '附近',
-          '都',
-          '没有',
-          '卖',
-          '水果',
-          '的',
-        ],
-        pinyin: [
-          'wǒ',
-          'zhù',
-          'de',
-          'jiǔdiàn',
-          'fùjìn',
-          'dōu',
-          'méiyǒu',
-          'mài',
-          'shuǐguǒ',
-          'de',
-        ],
+        hanzi: ['过去了'],
+        pinyin: ['guòqù le'],
       },
     },
     {
-      id: 'sentence54',
+      id: 'sentence50',
       level: 7,
+      isFinal: false,
+      korean: '한번 웃어봐.',
+      chinese: {
+        hanzi: ['笑一笑'],
+        pinyin: ['xiào yi xiào'],
+      },
+    },
+    {
+      id: 'sentence50',
+      level: 8,
+      isFinal: false,
+      korean: '한번 웃어넘기면 돼.',
+      chinese: {
+        hanzi: ['笑一笑', '就', '过去', '了'],
+        pinyin: ['xiào yi xiào', 'jiù', 'guòqù', 'le'],
+      },
+    },
+    {
+      id: 'sentence50',
+      level: 9,
       isFinal: true,
       korean:
-        '기사님, 과일가게 앞에서 저를 잠깐 기다려주실 수 있으실까요? 제가 묵는 호텔 근처에는 과일 파는 데도 없어서요.',
+        'A: 이런 사소한 일은 전혀 화낼 만한 게 아니야, 한번 웃어넘기면 돼.',
       chinese: {
-        hanzi: [
-          '师傅，',
-          '能',
-          '在',
-          '水果店',
-          '门口',
-          '等',
-          '我',
-          '一下',
-          '吗？',
-          '我',
-          '住',
-          '的',
-          '酒店',
-          '附近',
-          '都',
-          '没有',
-          '卖',
-          '水果',
-          '的',
-        ],
+        hanzi: ['这种小事', '根本', '不值得', '生气', '笑一笑', '就', '过去了'],
         pinyin: [
-          'Shīfu',
-          'néng',
-          'zài',
-          'shuǐguǒdiàn',
-          'ménkǒu',
-          'děng',
-          'wǒ',
-          'yíxià',
-          'ma',
-          'wǒ',
-          'zhù',
-          'de',
-          'jiǔdiàn',
-          'fùjìn',
-          'dōu',
-          'méiyǒu',
-          'mài',
-          'shuǐguǒ',
-          'de',
-        ],
-      },
-    },
-
-    // 55번
-    {
-      id: 'sentence55',
-      level: 1,
-      isFinal: false,
-      korean: '원하다',
-      chinese: {
-        hanzi: ['要'],
-        pinyin: ['Yào'],
-      },
-    },
-    {
-      id: 'sentence55',
-      level: 2,
-      isFinal: false,
-      korean: '원하지 않다, 하지 말아라',
-      chinese: {
-        hanzi: ['不', '要'],
-        pinyin: ['Bú', 'yào'],
-      },
-    },
-    {
-      id: 'sentence55',
-      level: 3,
-      isFinal: false,
-      korean: '고수를 원하지 않아요(넣지 마세요)',
-      chinese: {
-        hanzi: ['不', '要', '香菜'],
-        pinyin: ['Bú', 'yào', 'xiāngcài'],
-      },
-    },
-    {
-      id: 'sentence55',
-      level: 4,
-      isFinal: true,
-      korean: '고수를 원하지 않아요(넣지 마세요), 감사합니다',
-      chinese: {
-        hanzi: ['不', '要', '香菜，', '谢谢'],
-        pinyin: ['Bú', 'yào', 'xiāngcài', 'xièxie'],
-      },
-    },
-
-    // 56번
-    {
-      id: 'sentence56',
-      level: 1,
-      isFinal: false,
-      korean: '먹어요',
-      chinese: {
-        hanzi: ['吃'],
-        pinyin: ['Chī'],
-      },
-    },
-    {
-      id: 'sentence56',
-      level: 2,
-      isFinal: false,
-      korean: '안 먹어요',
-      chinese: {
-        hanzi: ['不', '吃'],
-        pinyin: ['Bù', 'chī'],
-      },
-    },
-    {
-      id: 'sentence56',
-      level: 3,
-      isFinal: true,
-      korean:
-        '고수 원하지 않아요(넣지 마세요), 감사합니다. 저는 고수를 안 먹어요',
-      chinese: {
-        hanzi: ['不', '要', '香菜,', '谢谢', '我', '不', '吃', '香菜'],
-        pinyin: [
-          'Bú',
-          'yào',
-          'xiāngcài',
-          'xièxie',
-          'wǒ',
-          'bù',
-          'chī',
-          'xiāngcài',
-        ],
-      },
-    },
-
-    // 57번
-    {
-      id: 'sentence57',
-      level: 1,
-      isFinal: false,
-      korean: '추천하다',
-      chinese: {
-        hanzi: ['推荐'],
-        pinyin: ['Tuījiàn'],
-      },
-    },
-    {
-      id: 'sentence57',
-      level: 2,
-      isFinal: false,
-      korean: '저에게 추천해 주세요',
-      chinese: {
-        hanzi: ['给', '我', '推荐'],
-        pinyin: ['Gěi', 'wǒ', 'tuījiàn'],
-      },
-    },
-    {
-      id: 'sentence57',
-      level: 3,
-      isFinal: false,
-      korean: '...할 수 있을까요?',
-      chinese: {
-        hanzi: ['能...吗?'],
-        pinyin: ['Néng ma'],
-      },
-    },
-    {
-      id: 'sentence57',
-      level: 4,
-      isFinal: true,
-      korean: '제게 추천해 주실 수 있으실까요?',
-      chinese: {
-        hanzi: ['能', '给', '我', '推荐', '吗？'],
-        pinyin: ['Néng', 'gěi', 'wǒ', 'tuījiàn', 'ma'],
-      },
-    },
-
-    // 58번
-    {
-      id: 'sentence58',
-      level: 1,
-      isFinal: false,
-      korean: '맵지 않다',
-      chinese: {
-        hanzi: ['不', '辣'],
-        pinyin: ['Bú', 'là'],
-      },
-    },
-    {
-      id: 'sentence58',
-      level: 2,
-      isFinal: false,
-      korean: '안 매운 요리',
-      chinese: {
-        hanzi: ['不', '辣', '的', '菜'],
-        pinyin: ['Bú', 'là', 'de', 'cài'],
-      },
-    },
-    {
-      id: 'sentence58',
-      level: 3,
-      isFinal: false,
-      korean: '몇 개의 안 매운 요리',
-      chinese: {
-        hanzi: ['几', '个', '不', '辣', '的', '菜'],
-        pinyin: ['Jǐ', 'ge', 'bú', 'là', 'de', 'cài'],
-      },
-    },
-    {
-      id: 'sentence58',
-      level: 4,
-      isFinal: false,
-      korean: '안 매운 요리 몇 개를 추천해 주세요',
-      chinese: {
-        hanzi: ['推荐', '几', '个', '不', '辣', '的', '菜'],
-        pinyin: ['Tuījiàn', 'jǐ', 'ge', 'bú', 'là', 'de', 'cài'],
-      },
-    },
-    {
-      id: 'sentence58',
-      level: 5,
-      isFinal: false,
-      korean: '제게 안 매운 요리 몇 개를 추천해 주세요',
-      chinese: {
-        hanzi: ['给', '我', '推荐', '几', '个', '不', '辣', '的', '菜'],
-        pinyin: ['Gěi', 'wǒ', 'tuījiàn', 'jǐ', 'ge', 'bú', 'là', 'de', 'cài'],
-      },
-    },
-    {
-      id: 'sentence58',
-      level: 6,
-      isFinal: false,
-      korean: '...할 수 있을까요?',
-      chinese: {
-        hanzi: ['能...吗?'],
-        pinyin: ['Néng ma'],
-      },
-    },
-
-    {
-      id: 'sentence58',
-      level: 7,
-      isFinal: true,
-      korean: '제게 안 매운 요리 몇 개를 추천해 주실 수 있으실까요?',
-      chinese: {
-        hanzi: [
-          '能',
-          '给',
-          '我',
-          '推荐',
-          '几',
-          '个',
-          '不',
-          '辣',
-          '的',
-          '菜',
-          '吗?',
-        ],
-        pinyin: [
-          'Néng',
-          'gěi',
-          'wǒ',
-          'tuījiàn',
-          'jǐ',
-          'ge',
-          'bú',
-          'là',
-          'de',
-          'cài',
-          'ma',
-        ],
-      },
-    },
-
-    // 59번
-    {
-      id: 'sentence59',
-      level: 1,
-      isFinal: false,
-      korean: '대표 요리, 간판 요리, 시그니처 요리',
-      chinese: {
-        hanzi: ['招牌', '菜'],
-        pinyin: ['Zhāopái', 'cài'],
-      },
-    },
-    {
-      id: 'sentence59',
-      level: 2,
-      isFinal: true,
-      korean: '시그니처 요리가 뭔가요?',
-      chinese: {
-        hanzi: ['招牌', '菜', '是', '什么？'],
-        pinyin: ['Zhāopái', 'cài', 'shì', 'shénme'],
-      },
-    },
-
-    // 60번
-    {
-      id: 'sentence60',
-      level: 1,
-      isFinal: false,
-      korean: '소개하다',
-      chinese: {
-        hanzi: ['介绍'],
-        pinyin: ['Jièshào'],
-      },
-    },
-    {
-      id: 'sentence60',
-      level: 2,
-      isFinal: false,
-      korean: '소개 좀 해주세요',
-      chinese: {
-        hanzi: ['介绍', '一下'],
-        pinyin: ['Jièshào', 'yíxià'],
-      },
-    },
-    {
-      id: 'sentence60',
-      level: 3,
-      isFinal: false,
-      korean: '...해도 될까요(해주실 수 있을까요)?',
-      chinese: {
-        hanzi: ['可以...吗？'],
-        pinyin: ['Kěyǐ ma'],
-      },
-    },
-    {
-      id: 'sentence60',
-      level: 4,
-      isFinal: false,
-      korean: '소개 좀 해주실 수 있으실까요?',
-      chinese: {
-        hanzi: ['可以', '介绍', '一下', '吗？'],
-        pinyin: ['Kěyǐ', 'jièshào', 'yíxià', 'ma'],
-      },
-    },
-    {
-      id: 'sentence60',
-      level: 5,
-      isFinal: true,
-      korean: '시그니처 요리가 뭔가요? 소개 좀 해주실 수 있으실까요?',
-      chinese: {
-        hanzi: ['招牌', '菜', '是', '什么?', '可以', '介绍', '一下', '吗？'],
-        pinyin: [
-          'Zhāopái',
-          'cài',
-          'shì',
-          'shénme',
-          'kěyǐ',
-          'jièshào',
-          'yíxià',
-          'ma',
-        ],
-      },
-    },
-  ],
-
-  day7: [
-    // 61번
-    {
-      id: 'sentence61',
-      level: 1,
-      isFinal: false,
-      korean: '넣다',
-      chinese: {
-        hanzi: ['放'],
-        pinyin: ['Fàng'],
-      },
-    },
-    {
-      id: 'sentence61',
-      level: 2,
-      isFinal: false,
-      korean: '적게 넣다',
-      chinese: {
-        hanzi: ['少', '放'],
-        pinyin: ['Shǎo', 'fàng'],
-      },
-    },
-    {
-      id: 'sentence61',
-      level: 3,
-      isFinal: false,
-      korean: '고추를 적게 넣다 ***辣椒 làjiāo 고추',
-      chinese: {
-        hanzi: ['少', '放', '辣椒'],
-        pinyin: ['Shǎo', 'fàng', 'làjiāo'],
-      },
-    },
-    {
-      id: 'sentence61',
-      level: 4,
-      isFinal: true,
-      korean: '고추를 적게 넣어주실 수 있으실까요?',
-      chinese: {
-        hanzi: ['可以', '少', '放', '辣椒', '吗？'],
-        pinyin: ['Kěyǐ', 'shǎo', 'fàng', 'làjiāo', 'ma'],
-      },
-    },
-
-    // 62번
-    {
-      id: 'sentence62',
-      level: 1,
-      isFinal: false,
-      korean: '매운 맛을 먹다 ***辣 là 매운 맛',
-      chinese: {
-        hanzi: ['吃', '辣'],
-        pinyin: ['Chī', 'là'],
-      },
-    },
-    {
-      id: 'sentence62',
-      level: 2,
-      isFinal: false,
-      korean: '매운 걸 먹을 수 있다',
-      chinese: {
-        hanzi: ['能', '吃', '辣'],
-        pinyin: ['Néng', 'chī', 'là'],
-      },
-    },
-    {
-      id: 'sentence62',
-      level: 3,
-      isFinal: false,
-      korean: '매운 걸 그다지 잘 못 먹어요',
-      chinese: {
-        hanzi: ['不太', '能', '吃', '辣'],
-        pinyin: ['Bú tài', 'néng', 'chī', 'là'],
-      },
-    },
-    {
-      id: 'sentence62',
-      level: 4,
-      isFinal: false,
-      korean: '저는 매운 걸 그다지 잘 못 먹어요',
-      chinese: {
-        hanzi: ['我', '不太', '能', '吃', '辣'],
-        pinyin: ['Wǒ', 'bú tài', 'néng', 'chī', 'là'],
-      },
-    },
-    {
-      id: 'sentence62',
-      level: 5,
-      isFinal: true,
-      korean:
-        '고추를 적게 넣어주실 수 있으실까요? 저는 매운 걸 그다지 잘 못 먹어요',
-      chinese: {
-        hanzi: [
-          '可以',
-          '少',
-          '放',
-          '辣椒',
-          '吗?',
-          '我',
-          '不太',
-          '能',
-          '吃',
-          '辣',
-        ],
-        pinyin: [
-          'Kěyǐ',
-          'shǎo',
-          'fàng',
-          'làjiāo',
-          'ma',
-          'wǒ',
-          'bú tài',
-          'néng',
-          'chī',
-          'là',
-        ],
-      },
-    },
-
-    // 63번
-    {
-      id: 'sentence63',
-      level: 1,
-      isFinal: false,
-      korean: '포장하다',
-      chinese: {
-        hanzi: ['打包'],
-        pinyin: ['Dǎbāo'],
-      },
-    },
-    {
-      id: 'sentence63',
-      level: 2,
-      isFinal: true,
-      korean:
-        '포장이요, 감사합니다 ***"带走 dàizǒu (가져갈게요)"라고 말하기도 해요.',
-      chinese: {
-        hanzi: ['打包，', '谢谢'],
-        pinyin: ['Dǎbāo', 'xièxie'],
-      },
-    },
-
-    // 64번
-    {
-      id: 'sentence64',
-      level: 1,
-      isFinal: false,
-      korean: '저를 도와주세요',
-      chinese: {
-        hanzi: ['帮', '我'],
-        pinyin: ['Bāng', 'wǒ'],
-      },
-    },
-    {
-      id: 'sentence64',
-      level: 2,
-      isFinal: false,
-      korean: '저를 도와 포장해 주세요',
-      chinese: {
-        hanzi: ['帮', '我', '打包'],
-        pinyin: ['Bāng', 'wǒ', 'dǎbāo'],
-      },
-    },
-    {
-      id: 'sentence64',
-      level: 3,
-      isFinal: false,
-      korean:
-        '(저를 도와)포장해 주세요 ***"请 qǐng"이 들어가면 더욱 공손해져요.',
-      chinese: {
-        hanzi: ['请', '帮', '我', '打包'],
-        pinyin: ['Qǐng', 'bāng', 'wǒ', 'dǎbāo'],
-      },
-    },
-    {
-      id: 'sentence64',
-      level: 4,
-      isFinal: true,
-      korean: '(저를 도와)포장해 주세요, 감사합니다',
-      chinese: {
-        hanzi: ['请', '帮', '我', '打包，', '谢谢'],
-        pinyin: ['Qǐng', 'bāng', 'wǒ', 'dǎbāo', 'xièxie'],
-      },
-    },
-
-    // 65번
-    {
-      id: 'sentence65',
-      level: 1,
-      isFinal: false,
-      korean: '디카페인(저카페인) ***低 dī 낮은 咖啡因 kāfēiyīn 카페인',
-      chinese: {
-        hanzi: ['低', '咖啡因'],
-        pinyin: ['Dī', 'kāfēiyīn'],
-      },
-    },
-    {
-      id: 'sentence65',
-      level: 2,
-      isFinal: false,
-      korean: '디카페인(저카페인) 음료',
-      chinese: {
-        hanzi: ['低', '咖啡因', '的', '饮料'],
-        pinyin: ['Dī', 'kāfēiyīn', 'de', 'yǐnliào'],
-      },
-    },
-    {
-      id: 'sentence65',
-      level: 3,
-      isFinal: false,
-      korean: '디카페인(저카페인) 음료 있어요',
-      chinese: {
-        hanzi: ['有', '低', '咖啡因', '的', '饮料'],
-        pinyin: ['Yǒu', 'dī', 'kāfēiyīn', 'de', 'yǐnliào'],
-      },
-    },
-    {
-      id: 'sentence65',
-      level: 4,
-      isFinal: true,
-      korean: '디카페인(저카페인) 음료 있나요?',
-      chinese: {
-        hanzi: ['有', '低', '咖啡因', '的(饮料)', '吗？'],
-        pinyin: ['Yǒu', 'dī', 'kāfēiyīn', 'de(yǐnliào)', 'ma'],
-      },
-    },
-
-    // 66번
-    {
-      id: 'sentence66',
-      level: 1,
-      isFinal: false,
-      korean: '찾았다',
-      chinese: {
-        hanzi: ['找到'],
-        pinyin: ['Zhǎodào'],
-      },
-    },
-    {
-      id: 'sentence66',
-      level: 2,
-      isFinal: false,
-      korean: '못 찾았다',
-      chinese: {
-        hanzi: ['没', '找到'],
-        pinyin: ['Méi', 'zhǎodào'],
-      },
-    },
-    {
-      id: 'sentence66',
-      level: 3,
-      isFinal: false,
-      korean: '메뉴판에',
-      chinese: {
-        hanzi: ['在', '菜单', '上'],
-        pinyin: ['Zài', 'càidān', 'shang'],
-      },
-    },
-    {
-      id: 'sentence66',
-      level: 4,
-      isFinal: false,
-      korean: '메뉴판에서 못 찾겠어요',
-      chinese: {
-        hanzi: ['在', '菜单', '上', '没', '找到'],
-        pinyin: ['Zài', 'càidān', 'shang', 'méi', 'zhǎodào'],
-      },
-    },
-    {
-      id: 'sentence66',
-      level: 5,
-      isFinal: true,
-      korean: '저카페인 음료 있나요? 메뉴판에서 못 찾겠어요',
-      chinese: {
-        hanzi: [
-          '有',
-          '低',
-          '咖啡因',
-          '的(饮料)',
-          '吗？',
-          '我',
-          '在',
-          '菜单',
-          '上',
-          '没',
-          '找到',
-        ],
-        pinyin: [
-          'Yǒu',
-          'dī',
-          'kāfēiyīn',
-          'de(yǐnliào)',
-          'ma',
-          'wǒ',
-          'zài',
-          'càidān',
-          'shang',
-          'méi',
-          'zhǎodào',
-        ],
-      },
-    },
-
-    // 67번
-    {
-      id: 'sentence67',
-      level: 1,
-      isFinal: false,
-      korean: '바꾸다',
-      chinese: {
-        hanzi: ['换'],
-        pinyin: ['Huàn'],
-      },
-    },
-    {
-      id: 'sentence67',
-      level: 2,
-      isFinal: true,
-      korean: '바꿔도 될까요?',
-      chinese: {
-        hanzi: ['可以', '换', '吗？'],
-        pinyin: ['Kěyǐ', 'huàn', 'ma'],
-      },
-    },
-
-    // 68번
-    {
-      id: 'sentence68',
-      level: 1,
-      isFinal: false,
-      korean: '…로 바꾸다',
-      chinese: {
-        hanzi: ['换成'],
-        pinyin: ['Huànchéng'],
-      },
-    },
-    {
-      id: 'sentence68',
-      level: 2,
-      isFinal: false,
-      korean: '디카페인(저카페인) 음료로 바꾸다',
-      chinese: {
-        hanzi: ['换成', '低', '咖啡因', '的', '饮料'],
-        pinyin: ['Huànchéng', 'dī', 'kāfēiyīn', 'de', 'yǐnliào'],
-      },
-    },
-    {
-      id: 'sentence68',
-      level: 3,
-      isFinal: true,
-      korean: '디카페인(저카페인) 음료로 바꿔도 될까요?',
-      chinese: {
-        hanzi: ['可以', '换成', '低', '咖啡因', '的(饮料)', '吗？'],
-        pinyin: ['Kěyǐ', 'huànchéng', 'dī', 'kāfēiyīn', 'de(yǐnliào)', 'ma'],
-      },
-    },
-
-    // 69번
-    {
-      id: 'sentence69',
-      level: 1,
-      isFinal: false,
-      korean: '디카페인, 카페인이 없다 ***无 wú 없다',
-      chinese: {
-        hanzi: ['无', '咖啡因'],
-        pinyin: ['Wú', 'kāfēiyīn'],
-      },
-    },
-    {
-      id: 'sentence69',
-      level: 2,
-      isFinal: false,
-      korean: '디카페인의 (것)',
-      chinese: {
-        hanzi: ['无', '咖啡因', '的'],
-        pinyin: ['Wú', 'kāfēiyīn', 'de'],
-      },
-    },
-    {
-      id: 'sentence69',
-      level: 3,
-      isFinal: true,
-      korean:
-        '카페인 없는 것인가요? ***디카페인은 无咖啡因(wú kāfēiyīn)이라고도 해요. 앞에 나온 低咖啡因(dī kāfēiyīn)은 "저카페인"이라고 직역할 수 있지만 한국에서는 "디카페인"이라고 말해요.  “无咖啡因的? wú kāfēiyīn de"라고만 점원에게 질문하면 조금 예의 없어 보일 수 있어요.',
-      chinese: {
-        hanzi: ['(是)无', '咖啡因', '的', '吗？'],
-        pinyin: ['(Shì) wú', 'kāfēiyīn', 'de', 'ma'],
-      },
-    },
-
-    // 70번
-    {
-      id: 'sentence70',
-      level: 1,
-      isFinal: false,
-      korean: '어느 게',
-      chinese: {
-        hanzi: ['哪个'],
-        pinyin: ['Nǎ ge'],
-      },
-    },
-    {
-      id: 'sentence70',
-      level: 2,
-      isFinal: true,
-      korean:
-        '어느 게 카페인 없는 거예요? ***哪(nǎ 어느) 가 의문사이기 때문에 吗(ma)는 오지 않아요.',
-      chinese: {
-        hanzi: ['哪个', '是', '无', '咖啡因', '的？'],
-        pinyin: ['Nǎ ge', 'shì', 'wú', 'kāfēiyīn', 'de'],
-      },
-    },
-  ],
-
-  day8: [
-    // 71번
-    {
-      id: 'sentence71',
-      level: 1,
-      isFinal: false,
-      korean: '있다',
-      chinese: {
-        hanzi: ['有'],
-        pinyin: ['Yǒu'],
-      },
-    },
-    {
-      id: 'sentence71',
-      level: 2,
-      isFinal: false,
-      korean: '아직(더) 있다',
-      chinese: {
-        hanzi: ['还', '有'],
-        pinyin: ['Hái', 'yǒu'],
-      },
-    },
-    {
-      id: 'sentence71',
-      level: 3,
-      isFinal: false,
-      korean: '냅킨',
-      chinese: {
-        hanzi: ['餐巾纸'],
-        pinyin: ['Cānjīnzhǐ'],
-      },
-    },
-    {
-      id: 'sentence71',
-      level: 4,
-      isFinal: true,
-      korean: '냅킨 더 있나요?',
-      chinese: {
-        hanzi: ['还', '有', '餐巾纸', '吗？'],
-        pinyin: ['Hái', 'yǒu', 'cānjīnzhǐ', 'ma'],
-      },
-    },
-
-    // 72번
-    {
-      id: 'sentence72',
-      level: 1,
-      isFinal: false,
-      korean: '다 썼다',
-      chinese: {
-        hanzi: ['用完', '了'],
-        pinyin: ['Yòngwán', 'le'],
-      },
-    },
-    {
-      id: 'sentence72',
-      level: 2,
-      isFinal: false,
-      korean: '다 쓰지 않았다',
-      chinese: {
-        hanzi: ['没', '用完'],
-        pinyin: ['Méi', 'yòngwán'],
-      },
-    },
-    {
-      id: 'sentence72',
-      level: 3,
-      isFinal: false,
-      korean: '(마치)…인 것 같다',
-      chinese: {
-        hanzi: ['好像'],
-        pinyin: ['Hǎoxiàng'],
-      },
-    },
-    {
-      id: 'sentence72',
-      level: 4,
-      isFinal: false,
-      korean: '다 쓴 거 같아요.',
-      chinese: {
-        hanzi: ['好像', '用完', '了'],
-        pinyin: ['Hǎoxiàng', 'yòngwán', 'le'],
-      },
-    },
-    {
-      id: 'sentence72',
-      level: 5,
-      isFinal: false,
-      korean: '여기의 것',
-      chinese: {
-        hanzi: ['这里', '的'],
-        pinyin: ['Zhèlǐ', 'de'],
-      },
-    },
-    {
-      id: 'sentence72',
-      level: 6,
-      isFinal: false,
-      korean: '여기의 것은 다 쓴 것 같아요',
-      chinese: {
-        hanzi: ['这里', '的', '好像', '用完', '了'],
-        pinyin: ['Zhèlǐ', 'de', 'hǎoxiàng', 'yòngwán', 'le'],
-      },
-    },
-    {
-      id: 'sentence72',
-      level: 5,
-      isFinal: true,
-      korean: '냅킨 더 있나요? 여기의 것은 다 쓴 것 같아요',
-      chinese: {
-        hanzi: [
-          '还',
-          '有',
-          '餐巾纸',
-          '吗？',
-          '这里',
-          '的',
-          '好像',
-          '用完',
-          '了',
-        ],
-        pinyin: [
-          'Hái',
-          'yǒu',
-          'cānjīnzhǐ',
-          'ma',
-          'zhèlǐ',
-          'de',
-          'hǎoxiàng',
-          'yòngwán',
+          'zhè zhǒng xiǎoshì',
+          'gēnběn',
+          'bù zhídé',
+          'shēngqì',
+          'xiào yi xiào',
+          'jiù',
+          'guòqù',
           'le',
         ],
-      },
-    },
-
-    // 73번
-    {
-      id: 'sentence73',
-      level: 1,
-      isFinal: false,
-      korean: 'A는 B에 있다',
-      chinese: {
-        hanzi: ['A在B'],
-        pinyin: ['Zài'],
-      },
-    },
-    {
-      id: 'sentence73',
-      level: 2,
-      isFinal: false,
-      korean: '어디에 있어요?',
-      chinese: {
-        hanzi: ['在', '哪里?'],
-        pinyin: ['Zài', 'nǎlǐ'],
-      },
-    },
-    {
-      id: 'sentence73',
-      level: 3,
-      isFinal: false,
-      korean: '화장실',
-      chinese: {
-        hanzi: ['厕所'],
-        pinyin: ['Cèsuǒ'],
-      },
-    },
-    {
-      id: 'sentence73',
-      level: 4,
-      isFinal: true,
-      korean: '화장실 어디에 있나요?',
-      chinese: {
-        hanzi: ['厕所', '在', '哪里?'],
-        pinyin: ['Cèsuǒ', 'zài', 'nǎlǐ'],
-      },
-    },
-
-    // 74번
-    {
-      id: 'sentence74',
-      level: 1,
-      isFinal: false,
-      korean:
-        '휴지를 가지고 가다 ***带 dài 가지다, 휴대하다, 가지고 가다 纸 zhǐ 휴지, 종이',
-      chinese: {
-        hanzi: ['带', '纸'],
-        pinyin: ['Dài', 'zhǐ'],
-      },
-    },
-    {
-      id: 'sentence74',
-      level: 2,
-      isFinal: false,
-      korean: '스스로, 따로',
-      chinese: {
-        hanzi: ['自己'],
-        pinyin: ['Zìjǐ'],
-      },
-    },
-    {
-      id: 'sentence74',
-      level: 3,
-      isFinal: false,
-      korean: '휴지를 따로 가져가다',
-      chinese: {
-        hanzi: ['自己', '带', '纸'],
-        pinyin: ['Zìjǐ', 'dài', 'zhǐ'],
-      },
-    },
-    {
-      id: 'sentence74',
-      level: 4,
-      isFinal: false,
-      korean: '...해야 한다',
-      chinese: {
-        hanzi: ['要'],
-        pinyin: ['Yào'],
-      },
-    },
-    {
-      id: 'sentence74',
-      level: 5,
-      isFinal: false,
-      korean: '휴지를 따로(스스로) 가져가야하나요?',
-      chinese: {
-        hanzi: ['要', '自己', '带', '纸', '吗？'],
-        pinyin: ['Yào', 'zìjǐ', 'dài', 'zhǐ', 'ma'],
-      },
-    },
-    {
-      id: 'sentence74',
-      level: 6,
-      isFinal: true,
-      korean: '화장실 어디에 있나요? 휴지를 따로 가져가야 하나요?',
-      chinese: {
-        hanzi: ['厕所', '在', '哪里?', '要', '自己', '带', '纸', '吗？'],
-        pinyin: ['Cèsuǒ', 'zài', 'nǎlǐ', 'yào', 'zìjǐ', 'dài', 'zhǐ', 'ma'],
-      },
-    },
-
-    // 75번
-    {
-      id: 'sentence75',
-      level: 1,
-      isFinal: false,
-      korean: '늦다',
-      chinese: {
-        hanzi: ['迟'],
-        pinyin: ['Chí'],
-      },
-    },
-    {
-      id: 'sentence75',
-      level: 2,
-      isFinal: false,
-      korean:
-        '조금 늦어요 ***一会儿 yíhuìr 잠시. 잠깐 동안. ->짧은 시간을 나타내요.',
-      chinese: {
-        hanzi: ['迟', '一会儿'],
-        pinyin: ['Chí', 'yíhuìr'],
-      },
-    },
-    {
-      id: 'sentence75',
-      level: 3,
-      isFinal: false,
-      korean: '…일 것이다, …할 것이다',
-      chinese: {
-        hanzi: ['会'],
-        pinyin: ['Huì'],
-      },
-    },
-    {
-      id: 'sentence75',
-      level: 4,
-      isFinal: false,
-      korean: '조금 늦을 거예요',
-      chinese: {
-        hanzi: ['会', '迟', '一会儿'],
-        pinyin: ['Huì', 'chí', 'yíhuìr'],
-      },
-    },
-    {
-      id: 'sentence75',
-      level: 5,
-      isFinal: false,
-      korean: '미안해요, 죄송해요',
-      chinese: {
-        hanzi: ['不好意思'],
-        pinyin: ['Bùhǎoyìsi'],
-      },
-    },
-    {
-      id: 'sentence75',
-      level: 6,
-      isFinal: true,
-      korean: '[통화 중] 미안해요, 저는 조금 늦을 거예요',
-      chinese: {
-        hanzi: ['不好意思，', '我', '会', '迟', '一会儿'],
-        pinyin: ['Bùhǎoyìsi', 'wǒ', 'huì', 'chí', 'yíhuìr'],
-      },
-    },
-
-    // 76번
-    {
-      id: 'sentence76',
-      level: 1,
-      isFinal: false,
-      korean: '길에 있어요, 가는 중이에요',
-      chinese: {
-        hanzi: ['在', '路上'],
-        pinyin: ['Zài', 'lùshang'],
-      },
-    },
-    {
-      id: 'sentence76',
-      level: 2,
-      isFinal: false,
-      korean: '아직 길에 있어요',
-      chinese: {
-        hanzi: ['还', '在', '路上'],
-        pinyin: ['Hái', 'zài', 'lùshang'],
-      },
-    },
-    {
-      id: 'sentence76',
-      level: 3,
-      isFinal: false,
-      korean: '저는 아직 가는 길이에요',
-      chinese: {
-        hanzi: ['我', '还', '在', '路上'],
-        pinyin: ['Wǒ', 'hái', 'zài', 'lùshang'],
-      },
-    },
-    {
-      id: 'sentence76',
-      level: 4,
-      isFinal: false,
-      korean: '저는 아직 가는 길이에요. 조금 늦을 거예요',
-      chinese: {
-        hanzi: ['我', '还', '在', '路上,', '会', '迟', '一会儿'],
-        pinyin: ['Wǒ', 'hái', 'zài', 'lùshang', 'huì', 'chí', 'yíhuìr'],
-      },
-    },
-    {
-      id: 'sentence76',
-      level: 5,
-      isFinal: true,
-      korean: '죄송해요, 아직 가는 중이라 조금 늦을 거예요',
-      chinese: {
-        hanzi: ['不好意思,', '我', '还', '在', '路上,', '会', '迟', '一会儿'],
-        pinyin: [
-          'Bùhǎoyìsi',
-          'wǒ',
-          'hái',
-          'zài',
-          'lùshang',
-          'huì',
-          'chí',
-          'yíhuìr',
-        ],
-      },
-    },
-
-    // 77번
-    {
-      id: 'sentence77',
-      level: 1,
-      isFinal: false,
-      korean: '명함',
-      chinese: {
-        hanzi: ['名片'],
-        pinyin: ['Míngpiàn'],
-      },
-    },
-    {
-      id: 'sentence77',
-      level: 2,
-      isFinal: false,
-      korean: '제 명함',
-      chinese: {
-        hanzi: ['我', '的', '名片'],
-        pinyin: ['Wǒ', 'de', 'míngpiàn'],
-      },
-    },
-    {
-      id: 'sentence77',
-      level: 3,
-      isFinal: true,
-      korean: '이건 제 명함이에요',
-      chinese: {
-        hanzi: ['这', '是', '我', '的', '名片'],
-        pinyin: ['Zhè', 'shì', 'wǒ', 'de', 'míngpiàn'],
-      },
-    },
-
-    // 78번
-    {
-      id: 'sentence78',
-      level: 1,
-      isFinal: false,
-      korean: '저는 OOO입니다',
-      chinese: {
-        hanzi: ['我', '是 OOO'],
-        pinyin: ['Wǒ', 'shì'],
-      },
-    },
-    {
-      id: 'sentence78',
-      level: 2,
-      isFinal: true,
-      korean: '안녕하세요. 저는 OOO입니다. 이건 제 명함이에요',
-      chinese: {
-        hanzi: ['您好,', '我', '是 OOO,', '这', '是', '我', '的', '名片'],
-        pinyin: ['Nín hǎo', 'wǒ', 'shì', 'zhè', 'shì', 'wǒ', 'de', 'míngpiàn'],
-      },
-    },
-
-    // 79번
-    {
-      id: 'sentence79',
-      level: 1,
-      isFinal: false,
-      korean: 'A는 B에 있다',
-      chinese: {
-        hanzi: ['A在B'],
-        pinyin: ['Zài'],
-      },
-    },
-    {
-      id: 'sentence79',
-      level: 2,
-      isFinal: false,
-      korean: '몇 층에 있어요? *** 几 jǐ 몇 楼 lóu 층',
-      chinese: {
-        hanzi: ['在', '几', '楼'],
-        pinyin: ['Zài', 'jǐ', 'lóu'],
-      },
-    },
-    {
-      id: 'sentence79',
-      level: 3,
-      isFinal: false,
-      korean: '회의실',
-      chinese: {
-        hanzi: ['会议室'],
-        pinyin: ['Huìyìshì'],
-      },
-    },
-    {
-      id: 'sentence79',
-      level: 4,
-      isFinal: true,
-      korean: '회의실은 몇 층에 있나요?',
-      chinese: {
-        hanzi: ['会议室', '在', '几', '楼？'],
-        pinyin: ['Huìyìshì', 'zài', 'jǐ', 'lóu'],
-      },
-    },
-
-    // 80번
-    {
-      id: 'sentence80',
-      level: 1,
-      isFinal: false,
-      korean: '여쭤볼게요',
-      chinese: {
-        hanzi: ['请问'],
-        pinyin: ['Qǐngwèn'],
-      },
-    },
-    {
-      id: 'sentence80',
-      level: 2,
-      isFinal: true,
-      korean: '여쭤볼게요, 회의실은 몇 층에 있나요?',
-      chinese: {
-        hanzi: ['请问，', '会议室', '在', '几', '楼？'],
-        pinyin: ['Qǐngwèn', 'huìyìshì', 'zài', 'jǐ', 'lóu'],
-      },
-    },
-  ],
-
-  day9: [
-    // 81번
-    {
-      id: 'sentence81',
-      level: 1,
-      isFinal: false,
-      korean: 'PPT를 재생하다',
-      chinese: {
-        hanzi: ['播放', 'PPT'],
-        pinyin: ['Bōfàng', ''],
-      },
-    },
-    {
-      id: 'sentence81',
-      level: 2,
-      isFinal: false,
-      korean: 'PPT 틀 수 있을까요?',
-      chinese: {
-        hanzi: ['能', '播放', 'PPT', '吗？'],
-        pinyin: ['Néng', 'bōfàng', '', 'ma'],
-      },
-    },
-    {
-      id: 'sentence81',
-      level: 3,
-      isFinal: true,
-      korean: '회의실에서 PPT 틀 수 있을까요(재생 할 수 있나요)?',
-      chinese: {
-        hanzi: ['会议室', '能', '播放', 'PPT', '吗？'],
-        pinyin: ['Huìyìshì', 'néng', 'bōfàng', '', 'ma'],
-      },
-    },
-
-    // 82번
-    {
-      id: 'sentence82',
-      level: 1,
-      isFinal: false,
-      korean: 'PPT를 준비했다',
-      chinese: {
-        hanzi: ['准备', '了', 'PPT'],
-        pinyin: ['Zhǔnbèi', 'le', ''],
-      },
-    },
-    {
-      id: 'sentence82',
-      level: 2,
-      isFinal: false,
-      korean: '제가 PPT를 준비했는데요',
-      chinese: {
-        hanzi: ['我', '准备', '了', 'PPT'],
-        pinyin: ['Wǒ', 'zhǔnbèi', 'le', ''],
-      },
-    },
-    {
-      id: 'sentence82',
-      level: 3,
-      isFinal: true,
-      korean:
-        '제가 PPT를 준비했는데, 회의실에서 재생할 수 있나요? ***"PPT를 틀다"라고 할 때 播放(bōfàng)을 放(fàng)으로 줄여서 간단하게 말하기도 해요. ',
-      chinese: {
-        hanzi: ['我', '准备', '了', 'PPT,', '会议室', '能', '播放', '吗？'],
-        pinyin: ['Wǒ', 'zhǔnbèi', 'le', '', 'huìyìshì', 'néng', 'bōfàng', 'ma'],
-      },
-    },
-
-    // 83번
-    {
-      id: 'sentence83',
-      level: 1,
-      isFinal: false,
-      korean: 'A에는 B가 있다',
-      chinese: {
-        hanzi: ['A有B'],
-        pinyin: ['yǒu'],
-      },
-    },
-    {
-      id: 'sentence83',
-      level: 2,
-      isFinal: false,
-      korean: '다른 색 ***别的 bié de 다른 颜色 yánsè 색깔',
-      chinese: {
-        hanzi: ['别的', '颜色'],
-        pinyin: ['Bié de', 'yánsè'],
-      },
-    },
-    {
-      id: 'sentence83',
-      level: 2,
-      isFinal: false,
-      korean: '다른 색 있어요',
-      chinese: {
-        hanzi: ['有', '别的', '颜色'],
-        pinyin: ['Yǒu', 'bié de', 'yánsè'],
-      },
-    },
-    {
-      id: 'sentence83',
-      level: 3,
-      isFinal: true,
-      korean: '이거 다른 색 있어요?',
-      chinese: {
-        hanzi: ['这个', '有', '别的', '颜色', '吗？'],
-        pinyin: ['Zhè ge', 'yǒu', 'bié de', 'yánsè', 'ma'],
-      },
-    },
-
-    // 84번
-    {
-      id: 'sentence84',
-      level: 1,
-      isFinal: false,
-      korean: '튀다',
-      chinese: {
-        hanzi: ['张扬'],
-        pinyin: ['Zhāngyáng'],
-      },
-    },
-    {
-      id: 'sentence84',
-      level: 2,
-      isFinal: false,
-      korean: '너무...하다',
-      chinese: {
-        hanzi: ['太...了'],
-        pinyin: ['Tài le'],
-      },
-    },
-    {
-      id: 'sentence84',
-      level: 3,
-      isFinal: false,
-      korean: '너무 튀어요',
-      chinese: {
-        hanzi: ['太', '张扬', '了'],
-        pinyin: ['Tài', 'zhāngyáng', 'le'],
-      },
-    },
-    {
-      id: 'sentence84',
-      level: 4,
-      isFinal: false,
-      korean: '좀 너무 튀어요',
-      chinese: {
-        hanzi: ['有点', '太', '张扬', '了'],
-        pinyin: ['Yǒudiǎn', 'tài', 'zhāngyáng', 'le'],
-      },
-    },
-    {
-      id: 'sentence84',
-      level: 5,
-      isFinal: false,
-      korean: '좀 너무 튀는 것 같아요',
-      chinese: {
-        hanzi: ['好像', '有点', '太', '张扬', '了'],
-        pinyin: ['Hǎoxiàng', 'yǒudiǎn', 'tài', 'zhāngyáng', 'le'],
-      },
-    },
-    {
-      id: 'sentence84',
-      level: 6,
-      isFinal: true,
-      korean: '이거 다른 색 있어요? 좀 너무 튀는 것 같아서요',
-      chinese: {
-        hanzi: [
-          '这个',
-          '有',
-          '别的',
-          '颜色',
-          '吗？',
-          '好像',
-          '有点',
-          '太',
-          '张扬',
-          '了',
-        ],
-        pinyin: [
-          'Zhè ge',
-          'yǒu',
-          'bié de',
-          'yánsè',
-          'ma',
-          'hǎoxiàng',
-          'yǒudiǎn',
-          'tài',
-          'zhāngyáng',
-          'le',
-        ],
-      },
-    },
-
-    // 85번
-    {
-      id: 'sentence85',
-      level: 1,
-      isFinal: false,
-      korean: '입어보다',
-      chinese: {
-        hanzi: ['试穿'],
-        pinyin: ['Shìchuān'],
-      },
-    },
-    {
-      id: 'sentence85',
-      level: 2,
-      isFinal: true,
-      korean: '입어봐도 돼요?',
-      chinese: {
-        hanzi: ['可以', '试穿', '吗？'],
-        pinyin: ['Kěyǐ', 'shìchuān', 'ma'],
-      },
-    },
-
-    // 86번
-    {
-      id: 'sentence86',
-      level: 1,
-      isFinal: false,
-      korean: '어디에 있어요?',
-      chinese: {
-        hanzi: ['在', '哪里?'],
-        pinyin: ['Zài', 'nǎlǐ'],
-      },
-    },
-    {
-      id: 'sentence86',
-      level: 2,
-      isFinal: false,
-      korean: '탈의실은 어디에 있어요',
-      chinese: {
-        hanzi: ['试衣间', '在', '哪里'],
-        pinyin: ['Shìyījiān', 'zài', 'nǎlǐ'],
-      },
-    },
-    {
-      id: 'sentence86',
-      level: 3,
-      isFinal: true,
-      korean: '입어봐도 돼요? 탈의실은 어디에 있나요?',
-      chinese: {
-        hanzi: ['可以', '试穿', '吗？', '试衣间', '在', '哪里？'],
-        pinyin: ['Kěyǐ', 'shìchuān', 'ma', 'shìyījiān', 'zài', 'nǎlǐ'],
-      },
-    },
-
-    // 87번
-    {
-      id: 'sentence87',
-      level: 1,
-      isFinal: false,
-      korean: '좀 보다',
-      chinese: {
-        hanzi: ['看看'],
-        pinyin: ['Kànkan'],
-      },
-    },
-    {
-      id: 'sentence87',
-      level: 2,
-      isFinal: true,
-      korean: '저 좀 (더) 볼게요',
-      chinese: {
-        hanzi: ['我', '看看'],
-        pinyin: ['Wǒ', 'kànkan'],
-      },
-    },
-
-    // 88번
-    {
-      id: 'sentence88',
-      level: 1,
-      isFinal: false,
-      korean: '(매우) 확실해요',
-      chinese: {
-        hanzi: ['很', '确定'],
-        pinyin: ['Hěn', 'quèdìng'],
-      },
-    },
-    {
-      id: 'sentence88',
-      level: 2,
-      isFinal: false,
-      korean: '확실(히 정)한게 아니예요',
-      chinese: {
-        hanzi: ['不是', '很', '确定'],
-        pinyin: ['Bú shì', 'hěn', 'quèdìng'],
-      },
-    },
-    {
-      id: 'sentence88',
-      level: 3,
-      isFinal: false,
-      korean: '아직 확실(히 정)한게 아니예요',
-      chinese: {
-        hanzi: ['还', '不是', '很', '确定'],
-        pinyin: ['Hái', 'bú shì', 'hěn', 'quèdìng'],
-      },
-    },
-    {
-      id: 'sentence88',
-      level: 4,
-      isFinal: true,
-      korean:
-        '[점원이 도움필요한지 물어본 상황] 저 좀 (더) 볼게요. 아직 확실히 정하지 않아서요.',
-      chinese: {
-        hanzi: ['我', '看看，', '还', '不是', '很', '确定'],
-        pinyin: ['Wǒ', 'kànkan', 'hái', 'bú shì', 'hěn', 'quèdìng'],
-      },
-    },
-
-    // 89번
-    {
-      id: 'sentence89',
-      level: 1,
-      isFinal: false,
-      korean: '비싸다',
-      chinese: {
-        hanzi: ['贵'],
-        pinyin: ['Guì'],
-      },
-    },
-    {
-      id: 'sentence89',
-      level: 2,
-      isFinal: true,
-      korean: '너무 비싸요',
-      chinese: {
-        hanzi: ['太', '贵', '了'],
-        pinyin: ['Tài', 'guì', 'le'],
-      },
-    },
-
-    // 90번
-    {
-      id: 'sentence90',
-      level: 1,
-      isFinal: false,
-      korean: '싸다',
-      chinese: {
-        hanzi: ['便宜'],
-        pinyin: ['Piányi'],
-      },
-    },
-    {
-      id: 'sentence90',
-      level: 2,
-      isFinal: false,
-      korean: '조금 싸게 해주세요',
-      chinese: {
-        hanzi: ['便宜', '一点'],
-        pinyin: ['Piányi', 'yìdiǎn'],
-      },
-    },
-    {
-      id: 'sentence90',
-      level: 3,
-      isFinal: false,
-      korean: '조금 싸게 해주실 수 있나요?',
-      chinese: {
-        hanzi: ['便宜', '一点', '可以', '吗？'],
-        pinyin: ['Piányi', 'yìdiǎn', 'kěyǐ', 'ma'],
-      },
-    },
-    {
-      id: 'sentence90',
-      level: 4,
-      isFinal: true,
-      korean: '너무 비싼데, 조금 싸게 해주실 수 있나요?',
-      chinese: {
-        hanzi: ['太', '贵', '了,', '便宜', '一点', '可以', '吗？'],
-        pinyin: ['Tài', 'guì', 'le', 'piányi', 'yìdiǎn', 'kěyǐ', 'ma'],
-      },
-    },
-  ],
-
-  day10: [
-    // 91번
-    {
-      id: 'sentence91',
-      level: 1,
-      isFinal: false,
-      korean: '어떻게 가요? ***怎么 zĕnme 어떻게 走 zǒu 가다',
-      chinese: {
-        hanzi: ['怎么', '走?'],
-        pinyin: ['Zěnme', 'zǒu'],
-      },
-    },
-    {
-      id: 'sentence91',
-      level: 2,
-      isFinal: false,
-      korean: '지하철역',
-      chinese: {
-        hanzi: ['地铁站'],
-        pinyin: ['Dìtiězhàn'],
-      },
-    },
-    {
-      id: 'sentence91',
-      level: 3,
-      isFinal: true,
-      korean: '지하철역은 어떻게 가요?',
-      chinese: {
-        hanzi: ['地铁站', '怎么', '走？'],
-        pinyin: ['Dìtiězhàn', 'zěnme', 'zǒu'],
-      },
-    },
-
-    // 92번
-    {
-      id: 'sentence92',
-      level: 1,
-      isFinal: false,
-      korean: '지하철역에 가다',
-      chinese: {
-        hanzi: ['去', '地铁站'],
-        pinyin: ['Qù', 'dìtiězhàn'],
-      },
-    },
-    {
-      id: 'sentence92',
-      level: 2,
-      isFinal: false,
-      korean: '…하고 싶다',
-      chinese: {
-        hanzi: ['想'],
-        pinyin: ['Xiǎng'],
-      },
-    },
-    {
-      id: 'sentence92',
-      level: 3,
-      isFinal: false,
-      korean: '저는 지하철역에 가고 싶어요',
-      chinese: {
-        hanzi: ['我', '想', '去', '地铁站'],
-        pinyin: ['Wǒ', 'xiǎng', 'qù', 'dìtiězhàn'],
-      },
-    },
-    {
-      id: 'sentence92',
-      level: 4,
-      isFinal: false,
-      korean:
-        '(마땅히)...해야 한다 ***应该 yīnggāi = 该 gāi (마땅히) …해야 한다',
-      chinese: {
-        hanzi: ['该'],
-        pinyin: ['Gāi'],
-      },
-    },
-
-    {
-      id: 'sentence92',
-      level: 5,
-      isFinal: false,
-      korean: '어떻게 가야 해요?',
-      chinese: {
-        hanzi: ['该', '怎么', '走？'],
-        pinyin: ['Gāi', 'zěnme', 'zǒu'],
-      },
-    },
-    {
-      id: 'sentence92',
-      level: 6,
-      isFinal: true,
-      korean: '저는 지하철역에 가고 싶은데 어떻게 가야 해요?',
-      chinese: {
-        hanzi: ['我', '想', '去', '地铁站，', '该', '怎么', '走？'],
-        pinyin: ['Wǒ', 'xiǎng', 'qù', 'dìtiězhàn', 'gāi', 'zěnme', 'zǒu'],
-      },
-    },
-
-    // 93번
-    {
-      id: 'sentence93',
-      level: 1,
-      isFinal: false,
-      korean: '…걸리다, 필요하다',
-      chinese: {
-        hanzi: ['要'],
-        pinyin: ['Yào'],
-      },
-    },
-    {
-      id: 'sentence93',
-      level: 2,
-      isFinal: false,
-      korean:
-        '얼마나 긴 시간 ***多 duō 얼마나 ***长 cháng 긴 时间 shíjiān 시간',
-      chinese: {
-        hanzi: ['多', '长', '时间'],
-        pinyin: ['Duō', 'cháng', 'shíjiān'],
-      },
-    },
-    {
-      id: 'sentence93',
-      level: 3,
-      isFinal: false,
-      korean: '얼마나 걸려요?',
-      chinese: {
-        hanzi: ['要', '多长', '时间'],
-        pinyin: ['Yào', 'duō cháng', 'shíjiān'],
-      },
-    },
-    {
-      id: 'sentence93',
-      level: 4,
-      isFinal: false,
-      korean: '공항까지 ***到 dào …까지 机场 jīchǎng 공항',
-      chinese: {
-        hanzi: ['到', '机场'],
-        pinyin: ['Dào', 'jīchǎng'],
-      },
-    },
-    {
-      id: 'sentence93',
-      level: 5,
-      isFinal: true,
-      korean:
-        '공항까지 얼마나 걸려요? ***多(duō 얼마나) 가 의문사이기 때문에 吗(ma)는 오지 않아요.',
-      chinese: {
-        hanzi: ['到', '机场', '要', '多长', '时间？'],
-        pinyin: ['Dào', 'jīchǎng', 'yào', 'duō cháng', 'shíjiān'],
-      },
-    },
-
-    // 94번
-    {
-      id: 'sentence94',
-      level: 1,
-      isFinal: false,
-      korean: '공항버스가 있다 ***A 有 B yǒu A에 B가 있다',
-      chinese: {
-        hanzi: ['有', '机场', '巴士'],
-        pinyin: ['Yǒu', 'jīchǎng', 'bāshì'],
-      },
-    },
-    {
-      id: 'sentence94',
-      level: 2,
-      isFinal: false,
-      korean: '근처',
-      chinese: {
-        hanzi: ['附近'],
-        pinyin: ['Fùjìn'],
-      },
-    },
-    {
-      id: 'sentence94',
-      level: 3,
-      isFinal: false,
-      korean: '근처에 공항버스 있어요',
-      chinese: {
-        hanzi: ['附近', '有', '机场', '巴士'],
-        pinyin: ['Fùjìn', 'yǒu', 'jīchǎng', 'bāshì'],
-      },
-    },
-    {
-      id: 'sentence94',
-      level: 4,
-      isFinal: false,
-      korean: '근처에 공항버스 있어요?',
-      chinese: {
-        hanzi: ['附近', '有', '机场', '巴士', '吗？'],
-        pinyin: ['Fùjìn', 'yǒu', 'jīchǎng', 'bāshì', 'ma'],
-      },
-    },
-    {
-      id: 'sentence94',
-      level: 5,
-      isFinal: true,
-      korean: '공항까지 얼마나 걸려요? 근처에 공항버스 있나요?',
-      chinese: {
-        hanzi: [
-          '到',
-          '机场',
-          '要',
-          '多长',
-          '时间?',
-          '附近',
-          '有',
-          '机场',
-          '巴士',
-          '吗?',
-        ],
-        pinyin: [
-          'Dào',
-          'jīchǎng',
-          'yào',
-          'duō cháng',
-          'shíjiān',
-          'fùjìn',
-          'yǒu',
-          'jīchǎng',
-          'bāshì',
-          'ma',
-        ],
-      },
-    },
-
-    // 95번
-    {
-      id: 'sentence95',
-      level: 1,
-      isFinal: false,
-      korean: '어디에서, 어디에 있나요?',
-      chinese: {
-        hanzi: ['在', '哪儿'],
-        pinyin: ['Zài', 'nǎr'],
-      },
-    },
-    {
-      id: 'sentence95',
-      level: 2,
-      isFinal: false,
-      korean: '어디에서 타나요? ***坐 zuò 타다, 앉다',
-      chinese: {
-        hanzi: ['在', '哪儿', '坐？'],
-        pinyin: ['Zài', 'nǎr', 'zuò'],
-      },
-    },
-    {
-      id: 'sentence95',
-      level: 3,
-      isFinal: false,
-      korean: '버스',
-      chinese: {
-        hanzi: ['公交'],
-        pinyin: ['Gōngjiāo'],
-      },
-    },
-    {
-      id: 'sentence95',
-      level: 4,
-      isFinal: true,
-      korean: '버스는 어디에서 타나요?',
-      chinese: {
-        hanzi: ['公交', '在', '哪儿', '坐？'],
-        pinyin: ['Gōngjiāo', 'zài', 'nǎr', 'zuò'],
-      },
-    },
-
-    // 96번
-    {
-      id: 'sentence96',
-      level: 1,
-      isFinal: false,
-      korean: '버스를 타다',
-      chinese: {
-        hanzi: ['坐', '公交'],
-        pinyin: ['Zuò', 'gōngjiāo'],
-      },
-    },
-    {
-      id: 'sentence96',
-      level: 2,
-      isFinal: false,
-      korean: '…해야 한다 ***"의지"가 느껴져요.',
-      chinese: {
-        hanzi: ['要'],
-        pinyin: ['Yào'],
-      },
-    },
-    {
-      id: 'sentence96',
-      level: 3,
-      isFinal: false,
-      korean: '저는 버스를 타야 해요',
-      chinese: {
-        hanzi: ['我', '要', '坐', '公交'],
-        pinyin: ['Wǒ', 'yào', 'zuò', 'gōngjiāo'],
-      },
-    },
-
-    {
-      id: 'sentence96',
-      level: 4,
-      isFinal: false,
-      korean: '타러 어디로 가야 하나요?',
-      chinese: {
-        hanzi: ['该', '去', '哪儿', '坐', '？'],
-        pinyin: ['Gāi', 'qù', 'nǎr', 'zuò', '?'],
-      },
-    },
-    {
-      id: 'sentence96',
-      level: 5,
-      isFinal: true,
-      korean: '저는 버스를 타야 하는데, 타러 어디로 가야 하나요?',
-      chinese: {
-        hanzi: ['我', '要', '坐', '公交，', '该', '去', '哪儿', '坐？'],
-        pinyin: ['Wǒ', 'yào', 'zuò', 'gōngjiāo', 'gāi', 'qù', 'nǎr', 'zuò'],
-      },
-    },
-
-    // 97번
-    {
-      id: 'sentence97',
-      level: 1,
-      isFinal: false,
-      korean: '보이다',
-      chinese: {
-        hanzi: ['见'],
-        pinyin: ['Jiàn'],
-      },
-    },
-    {
-      id: 'sentence97',
-      level: 2,
-      isFinal: false,
-      korean: '안 보이다',
-      chinese: {
-        hanzi: ['不见'],
-        pinyin: ['Bú jiàn'],
-      },
-    },
-    {
-      id: 'sentence97',
-      level: 3,
-      isFinal: false,
-      korean: '~되었다 (완료)',
-      chinese: {
-        hanzi: ['了'],
-        pinyin: ['le'],
-      },
-    },
-    {
-      id: 'sentence97',
-      level: 4,
-      isFinal: false,
-      korean: '없어졌어요',
-      chinese: {
-        hanzi: ['不见', '了'],
-        pinyin: ['Bú jiàn', 'le'],
-      },
-    },
-    {
-      id: 'sentence97',
-      level: 5,
-      isFinal: false,
-      korean: '제 여권',
-      chinese: {
-        hanzi: ['我', '的', '护照'],
-        pinyin: ['Wǒ', 'de', 'hùzhào'],
-      },
-    },
-    {
-      id: 'sentence97',
-      level: 6,
-      isFinal: true,
-      korean: '제 여권이 없어졌어요!',
-      chinese: {
-        hanzi: ['我', '的', '护照', '不见', '了！'],
-        pinyin: ['Wǒ', 'de', 'hùzhào', 'bú jiàn', 'le'],
-      },
-    },
-
-    // 98번
-    {
-      id: 'sentence98',
-      level: 1,
-      isFinal: false,
-      korean: '찾아봐',
-      chinese: {
-        hanzi: ['找找'],
-        pinyin: ['Zhǎozhao'],
-      },
-    },
-    {
-      id: 'sentence98',
-      level: 2,
-      isFinal: false,
-      korean: '다시',
-      chinese: {
-        hanzi: ['再'],
-        pinyin: ['Zài'],
-      },
-    },
-    {
-      id: 'sentence98',
-      level: 3,
-      isFinal: false,
-      korean: '다시 찾아봐',
-      chinese: {
-        hanzi: ['再', '找找'],
-        pinyin: ['Zài', 'zhǎozhao'],
-      },
-    },
-    {
-      id: 'sentence98',
-      level: 4,
-      isFinal: false,
-      korean: '제가 다시 한 번 찾아볼게요',
-      chinese: {
-        hanzi: ['我', '再', '找找'],
-        pinyin: ['Wǒ', 'zài', 'zhǎozhao'],
-      },
-    },
-    {
-      id: 'sentence98',
-      level: 5,
-      isFinal: true,
-      korean: '제 여권이 없어졌어요! 다시 한 번 찾아볼게요',
-      chinese: {
-        hanzi: ['我', '的', '护照', '不见', '了!', '我', '再', '找找'],
-        pinyin: [
-          'Wǒ',
-          'de',
-          'hùzhào',
-          'bú jiàn',
-          'le',
-          'wǒ',
-          'zài',
-          'zhǎozhao',
-        ],
-      },
-    },
-
-    // 99번
-    {
-      id: 'sentence99',
-      level: 1,
-      isFinal: false,
-      korean: '신고하다',
-      chinese: {
-        hanzi: ['报警'],
-        pinyin: ['Bàojǐng'],
-      },
-    },
-    {
-      id: 'sentence99',
-      level: 2,
-      isFinal: false,
-      korean: '(저 대신) 신고해 주세요 ***帮 bāng 돕다',
-      chinese: {
-        hanzi: ['帮', '我', '报警'],
-        pinyin: ['Bāng', 'wǒ', 'bàojǐng'],
-      },
-    },
-    {
-      id: 'sentence99',
-      level: 3,
-      isFinal: false,
-      korean: '...해주세요 ***"请 qǐng"이 들어가면 더욱 공손해져요. ',
-      chinese: {
-        hanzi: ['请'],
-        pinyin: ['Qǐng'],
-      },
-    },
-    {
-      id: 'sentence99',
-      level: 4,
-      isFinal: true,
-      korean: '[지나가는 사람에게 말하는 상황] (제 대신) 경찰에 신고해주세요!',
-      chinese: {
-        hanzi: ['请', '帮', '我', '报警！'],
-        pinyin: ['Qǐng', 'bāng', 'wǒ', 'bàojǐng'],
-      },
-    },
-
-    // 100번
-    {
-      id: 'sentence100',
-      level: 1,
-      isFinal: false,
-      korean: '죄송합니다',
-      chinese: {
-        hanzi: ['不好意思'],
-        pinyin: ['Bùhǎoyìsi'],
-      },
-    },
-    {
-      id: 'sentence100',
-      level: 2,
-      isFinal: true,
-      korean:
-        '[지나가는 사람에게 말하는 상황] 미안하지만 (제 대신) 경찰에 신고해주세요!',
-      chinese: {
-        hanzi: ['不好意思，', '请', '帮', '我', '报警！'],
-        pinyin: ['Bùhǎoyìsi', 'qǐng', 'bāng', 'wǒ', 'bàojǐng'],
       },
     },
   ],
