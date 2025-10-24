@@ -233,6 +233,21 @@ header:after {
   border: 1px dashed #f4c84d;
 }
 
+/* isFinal: true인 중요한 문장 스타일 */
+.sentence-display .final-sentence,
+#korean-sentence.final-sentence {
+  color: #e0a800;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-shadow: 0 1px 2px rgba(224, 168, 0, 0.1);
+}
+
+.sentence-display:has(.final-sentence) {
+  background: linear-gradient(135deg, #fffbf0 0%, #fff8e1 100%);
+  border: 2px solid #f4c84d;
+  box-shadow: 0 6px 12px rgba(244, 200, 77, 0.2);
+}
+
 .instruction {
   text-align: center;
   margin-bottom: 1.5rem;
