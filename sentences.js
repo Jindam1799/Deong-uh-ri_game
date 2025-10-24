@@ -8,27 +8,27 @@ const sentenceData = {
       korean: '중국어를 말해요.',
       chinese: {
         hanzi: ['说', '汉语'],
-        pinyin: ['shuō', 'hànyǔ'],
+        pinyin: ['shuō', 'Hànyǔ'],
       },
     },
     {
       id: 'sentence1',
       level: 2,
-      isFinal: true,
-      korean: '중국어를 말할 줄 알아요?',
+      isFinal: false,
+      korean: '중국어를 말할 줄 알아요',
       chinese: {
         hanzi: ['会', '说', '汉语'],
-        pinyin: ['huì', 'shuō', 'hànyǔ'],
+        pinyin: ['huì', 'shuō', 'Hànyǔ'],
       },
     },
     {
       id: 'sentence1',
       level: 3,
-      isFinal: false,
+      isFinal: true,
       korean: 'A: 누가 중국어를 말할 줄 아나요?',
       chinese: {
         hanzi: ['谁', '会', '说', '汉语'],
-        pinyin: ['shéi', 'huì', 'shuō', 'hànyǔ'],
+        pinyin: ['shéi', 'huì', 'shuō', 'Hànyǔ'],
       },
     },
     {
@@ -38,7 +38,7 @@ const sentenceData = {
       korean: 'B: 저는 중국어를 말할 줄 알아요.',
       chinese: {
         hanzi: ['我', '会', '说', '汉语'],
-        pinyin: ['wǒ', 'huì', 'shuō', 'hànyǔ'],
+        pinyin: ['wǒ', 'huì', 'shuō', 'Hànyǔ'],
       },
     },
 
@@ -253,8 +253,8 @@ const sentenceData = {
       isFinal: true,
       korean: 'A: 그는 저의 생일을 잊어버린 거죠?',
       chinese: {
-        hanzi: ['他', '忘了', '我的', '生日', '吗'],
-        pinyin: ['tā', 'wàng le', 'wǒ de', 'shēngrì', 'ma'],
+        hanzi: ['他', '忘了', '我的', '生日', '吧'],
+        pinyin: ['tā', 'wàng le', 'wǒ de', 'shēngrì', 'ba'],
       },
     },
     {
@@ -336,7 +336,7 @@ const sentenceData = {
       korean: '한국어를 알아들어요.',
       chinese: {
         hanzi: ['听懂', '韩语'],
-        pinyin: ['tīngdǒng', 'hányǔ'],
+        pinyin: ['tīngdǒng', 'Hányǔ'],
       },
     },
     {
@@ -346,7 +346,7 @@ const sentenceData = {
       korean: '한국어를 알아들을 수 있어요.',
       chinese: {
         hanzi: ['能', '听懂', '韩语'],
-        pinyin: ['néng', 'tīngdǒng', 'hányǔ'],
+        pinyin: ['néng', 'tīngdǒng', 'Hányǔ'],
       },
     },
     {
@@ -356,7 +356,7 @@ const sentenceData = {
       korean: 'B: 그녀는 한국어를 알아들을 수 있어요.',
       chinese: {
         hanzi: ['她', '能', '听懂', '韩语'],
-        pinyin: ['tā', 'néng', 'tīngdǒng', 'hányǔ'],
+        pinyin: ['tā', 'néng', 'tīngdǒng', 'Hányǔ'],
       },
     },
   ],
@@ -590,8 +590,8 @@ const sentenceData = {
       isFinal: false,
       korean: '잠깐 놀아도 되죠?',
       chinese: {
-        hanzi: ['可以', '玩(儿)', '一会儿', '吗'],
-        pinyin: ['kěyǐ', 'wán(r)', 'yíhuìr', 'ma'],
+        hanzi: ['可以', '玩(儿)', '一会儿', '吧'],
+        pinyin: ['kěyǐ', 'wán(r)', 'yíhuìr', 'ba'],
       },
     },
     {
@@ -610,8 +610,8 @@ const sentenceData = {
       isFinal: false,
       korean: '방금 나갔어요.',
       chinese: {
-        hanzi: ['刚', '出去了'],
-        pinyin: ['gāng', 'chūqù le'],
+        hanzi: ['刚', '出去', '了'],
+        pinyin: ['gāng', 'chūqù', 'le'],
       },
     },
     {
@@ -620,8 +620,8 @@ const sentenceData = {
       isFinal: false,
       korean: '선생님은 방금 나갔어요.',
       chinese: {
-        hanzi: ['老师', '刚', '出去了'],
-        pinyin: ['lǎoshī', 'gāng', 'chūqù le'],
+        hanzi: ['老师', '刚', '出去', '了'],
+        pinyin: ['lǎoshī', 'gāng', 'chūqù', 'le'],
       },
     },
     {
@@ -630,11 +630,12 @@ const sentenceData = {
       isFinal: true,
       korean: 'A: 선생님은 방금 나갔어요. 잠깐 놀아도 되죠?',
       chinese: {
-        hanzi: ['老师', '刚', '出去了', '可以', '玩(儿)', '一会儿', '吧'],
+        hanzi: ['老师', '刚', '出去', '了', '可以', '玩(儿)', '一会儿', '吧'],
         pinyin: [
           'lǎoshī',
           'gāng',
-          'chūqù le',
+          'chūqù',
+          'le',
           'kěyǐ',
           'wán(r)',
           'yíhuìr',
@@ -832,8 +833,8 @@ const sentenceData = {
       isFinal: false,
       korean: '사람 없어요(빈자리예요).',
       chinese: {
-        hanzi: ['没有人'],
-        pinyin: ['méiyǒu rén'],
+        hanzi: ['没有', '人'],
+        pinyin: ['méiyǒu', 'rén'],
       },
     },
     {
@@ -967,7 +968,7 @@ const sentenceData = {
       isFinal: true,
       korean: 'B: 저는 반드시 성공할 거예요.',
       chinese: {
-        hanzi: ['我', '一定要', '成功'],
+        hanzi: ['我', '一定', '要', '成功'],
         pinyin: ['wǒ', 'yídìng', 'yào', 'chénggōng'],
       },
     },
@@ -1072,7 +1073,7 @@ const sentenceData = {
       korean: '얼굴빛이 그다지 좋아 보이지 않아요.',
       chinese: {
         hanzi: ['脸色', '不太', '好'],
-        pinyin: ['liǎnsè', 'bù tài', 'hǎo'],
+        pinyin: ['liǎnsè', 'bú tài', 'hǎo'],
       },
     },
     {
@@ -1082,7 +1083,7 @@ const sentenceData = {
       korean: 'A: 왜 그래요? 얼굴빛이 그다지 좋아 보이지 않아요.',
       chinese: {
         hanzi: ['怎么了', '脸色', '不太', '好'],
-        pinyin: ['zěnme le', 'liǎnsè', 'bù tài', 'hǎo'],
+        pinyin: ['zěnmele', 'liǎnsè', 'bú tài', 'hǎo'],
       },
     },
     {
@@ -1336,7 +1337,7 @@ const sentenceData = {
       id: 'sentence17',
       level: 5,
       isFinal: true,
-      korean: 'A: 저는 요즘 기억력이 점점 나빠지고 있어요.',
+      korean: 'A: 저는 요즘 기억력이 점점 나빠지는 것 같아요.',
       chinese: {
         hanzi: ['我', '觉得', '最近', '记性', '越来越', '差', '了'],
         pinyin: ['wǒ', 'juéde', 'zuìjìn', 'jìxìng', 'yuèláiyuè', 'chà', 'le'],
@@ -1410,8 +1411,8 @@ const sentenceData = {
       isFinal: true,
       korean: 'A: 조금 더 마실래요?',
       chinese: {
-        hanzi: ['要', '不要', '再', '喝', '一点'],
-        pinyin: ['yào', 'bù yào', 'zài', 'hē', 'yìdiǎn'],
+        hanzi: ['要不要', '再', '喝', '一点'],
+        pinyin: ['yào bu yào', 'zài', 'hē', 'yìdiǎn'],
       },
     },
     {
@@ -1420,8 +1421,8 @@ const sentenceData = {
       isFinal: false,
       korean: '갔어요(떠났어요).',
       chinese: {
-        hanzi: ['走了', '吗'],
-        pinyin: ['zǒu le', 'ma'],
+        hanzi: ['走了'],
+        pinyin: ['zǒu le'],
       },
     },
     {
@@ -1492,8 +1493,8 @@ const sentenceData = {
       isFinal: false,
       korean: '(말투를 부드럽게) 무슨 말을 하는 거야?',
       chinese: {
-        hanzi: ['说什么呀'],
-        pinyin: ['shuō shénme ya'],
+        hanzi: ['说', '什么', '呀'],
+        pinyin: ['shuō', 'shénme', 'ya'],
       },
     },
     {
@@ -1502,8 +1503,8 @@ const sentenceData = {
       isFinal: false,
       korean: '너는 무슨 말을 하는 거야?',
       chinese: {
-        hanzi: ['你', '说什么呀'],
-        pinyin: ['nǐ', 'shuō shénme ya'],
+        hanzi: ['你', '说', '什么', '呀'],
+        pinyin: ['nǐ', 'shuō', 'shénme', 'ya'],
       },
     },
     {
@@ -1512,8 +1513,8 @@ const sentenceData = {
       isFinal: false,
       korean: '너는 무슨 말을 하고 싶은 거야?',
       chinese: {
-        hanzi: ['你', '想', '说什么呀'],
-        pinyin: ['nǐ', 'xiǎng', 'shuō shénme ya'],
+        hanzi: ['你', '想', '说', '什么', '呀'],
+        pinyin: ['nǐ', 'xiǎng', 'shuō', 'shénme', 'ya'],
       },
     },
     {
@@ -1522,8 +1523,8 @@ const sentenceData = {
       isFinal: true,
       korean: 'B: 너는 도대체 무슨 말을 하고 싶은 거야?',
       chinese: {
-        hanzi: ['你', '到底', '想', '说什么呀'],
-        pinyin: ['nǐ', 'dàodǐ', 'xiǎng', 'shuō shénme ya'],
+        hanzi: ['你', '到底', '想', '说', '什么', '呀'],
+        pinyin: ['nǐ', 'dàodǐ', 'xiǎng', 'shuō', 'shénme', 'ya'],
       },
     },
     {
@@ -1532,8 +1533,8 @@ const sentenceData = {
       isFinal: false,
       korean: '나에게 시집 와.',
       chinese: {
-        hanzi: ['嫁', '给我'],
-        pinyin: ['jià', 'gěi', 'wǒ'],
+        hanzi: ['嫁给', '我'],
+        pinyin: ['jià gěi', 'wǒ'],
       },
     },
     {
@@ -1542,8 +1543,8 @@ const sentenceData = {
       isFinal: false,
       korean: '너는 나에게 시집 와.',
       chinese: {
-        hanzi: ['你', '嫁', '给我'],
-        pinyin: ['nǐ', 'jià', 'gěi', 'wǒ'],
+        hanzi: ['你', '嫁给', '我'],
+        pinyin: ['nǐ', 'jià gěi', 'wǒ'],
       },
     },
     {
@@ -1552,8 +1553,8 @@ const sentenceData = {
       isFinal: true,
       korean: '너는 나에게 시집 올래? (결혼할래?)',
       chinese: {
-        hanzi: ['你', '嫁', '给我', '吗'],
-        pinyin: ['nǐ', 'jià', 'gěi', 'wǒ', 'ma'],
+        hanzi: ['你', '嫁给', '我', '吗'],
+        pinyin: ['nǐ', 'jià gěi', 'wǒ', 'ma'],
       },
     },
     {
@@ -1562,8 +1563,8 @@ const sentenceData = {
       isFinal: true,
       korean: 'B: 너는 나에게 시집 와 줄래? (결혼해 줄래?)',
       chinese: {
-        hanzi: ['你', '愿意', '嫁', '给我', '吗'],
-        pinyin: ['nǐ', 'yuànyì', 'jià', 'gěi', 'wǒ', 'ma'],
+        hanzi: ['你', '愿意', '嫁给', '我', '吗'],
+        pinyin: ['nǐ', 'yuànyì', 'jià gěi', 'wǒ', 'ma'],
       },
     },
 
@@ -1584,8 +1585,8 @@ const sentenceData = {
       isFinal: false,
       korean: '다른 사람의 의견(남의 의견)',
       chinese: {
-        hanzi: ['别人', '的', '意见'],
-        pinyin: ['biérén', 'de', 'yìjiàn'],
+        hanzi: ['别人的', '意见'],
+        pinyin: ['biérén de', 'yìjiàn'],
       },
     },
     {
@@ -1595,7 +1596,7 @@ const sentenceData = {
       korean: '남의 의견을 받아들이다.',
       chinese: {
         hanzi: ['接受', '别人的', '意见'],
-        pinyin: ['jiēshòu', 'biérén', 'de', 'yìjiàn'],
+        pinyin: ['jiēshòu', 'biérén de', 'yìjiàn'],
       },
     },
     {
@@ -1605,7 +1606,7 @@ const sentenceData = {
       korean: '남의 의견을 받아들이지 않는다.',
       chinese: {
         hanzi: ['不', '接受', '别人的', '意见'],
-        pinyin: ['bù', 'jiēshòu', 'biérén', 'de', 'yìjiàn'],
+        pinyin: ['bù', 'jiēshòu', 'biérén de', 'yìjiàn'],
       },
     },
     {
@@ -1615,17 +1616,18 @@ const sentenceData = {
       korean: '남의 의견을 여태껏 받아들이지 않는다.',
       chinese: {
         hanzi: ['从来不', '接受', '别人的', '意见'],
-        pinyin: ['cónglái', 'bù', 'jiēshòu', 'biérén', 'de', 'yìjiàn'],
+        pinyin: ['cónglái bù', 'jiēshòu', 'biérén de', 'yìjiàn'],
       },
     },
     {
       id: 'sentence20',
       level: 6,
       isFinal: true,
-      korean: '그 사람은 남의 의견을 여태껏 안 받아들여(받아들인 적이 없어).',
+      korean:
+        'A: 그 사람은 남의 의견을 여태껏 안 받아들여(받아들인 적이 없어).',
       chinese: {
         hanzi: ['他', '从来不', '接受', '别人的', '意见'],
-        pinyin: ['tā', 'cónglái', 'bù', 'jiēshòu', 'biérén', 'de', 'yìjiàn'],
+        pinyin: ['tā', 'cónglái bù', 'jiēshòu', 'biérén de', 'yìjiàn'],
       },
     },
     {
@@ -1645,7 +1647,7 @@ const sentenceData = {
       korean: '자신의 생각을 바꾸다.',
       chinese: {
         hanzi: ['改变', '自己的', '想法'],
-        pinyin: ['gǎibiàn', 'zìjǐ', 'de', 'xiǎngfǎ'],
+        pinyin: ['gǎibiàn', 'zìjǐ de', 'xiǎngfǎ'],
       },
     },
     {
@@ -1655,7 +1657,7 @@ const sentenceData = {
       korean: '자신의 생각을 바꾸길 원하지 않아.',
       chinese: {
         hanzi: ['不愿意', '改变', '自己的', '想法'],
-        pinyin: ['bú yuànyì', 'gǎibiàn', 'zìjǐ', 'de', 'xiǎngfǎ'],
+        pinyin: ['bú yuànyì', 'gǎibiàn', 'zìjǐ de', 'xiǎngfǎ'],
       },
     },
     {
@@ -1665,15 +1667,7 @@ const sentenceData = {
       korean: 'B: 어떤 사람들은 자신의 생각을 바꾸길 원하지 않아.',
       chinese: {
         hanzi: ['有些人', '不愿意', '改变', '自己的', '想法'],
-        pinyin: [
-          'yǒuxiē',
-          'rén',
-          'bú yuànyì',
-          'gǎibiàn',
-          'zìjǐ',
-          'de',
-          'xiǎngfǎ',
-        ],
+        pinyin: ['yǒuxiē rén', 'bú yuànyì', 'gǎibiàn', 'zìjǐ de', 'xiǎngfǎ'],
       },
     },
   ],
@@ -1778,7 +1772,7 @@ const sentenceData = {
       korean: '혼자 가다.',
       chinese: {
         hanzi: ['一个人', '去'],
-        pinyin: ['yíge', 'rén', 'qù'],
+        pinyin: ['yí ge rén', 'qù'],
       },
     },
     {
@@ -1788,7 +1782,7 @@ const sentenceData = {
       korean: '혼자 갈 엄두가 안 나다.',
       chinese: {
         hanzi: ['不敢', '一个人', '去'],
-        pinyin: ['bù gǎn', 'yíge', 'rén', 'qù'],
+        pinyin: ['bù gǎn', 'yí ge rén', 'qù'],
       },
     },
     {
@@ -1798,7 +1792,7 @@ const sentenceData = {
       korean: 'A: 나는 혼자 갈 엄두가 안 나다.',
       chinese: {
         hanzi: ['我', '不敢', '一个人', '去'],
-        pinyin: ['wǒ', 'bù gǎn', 'yíge', 'rén', 'qù'],
+        pinyin: ['wǒ', 'bù gǎn', 'yí ge rén', 'qù'],
       },
     },
     {
@@ -1827,7 +1821,7 @@ const sentenceData = {
       isFinal: true,
       korean: 'B: 아니면 우리 같이 갈까?',
       chinese: {
-        hanzi: ['要不', '我们', '一起去'],
+        hanzi: ['要不', '我们', '一起', '去'],
         pinyin: ['yàobù', 'wǒmen', 'yìqǐ', 'qù'],
       },
     },
@@ -1840,7 +1834,7 @@ const sentenceData = {
       korean: '갈 수 없어(못 가).',
       chinese: {
         hanzi: ['去不了'],
-        pinyin: ['qù bù liǎo'],
+        pinyin: ['qù bu liǎo'],
       },
     },
     {
@@ -1849,8 +1843,8 @@ const sentenceData = {
       isFinal: false,
       korean: '아마 못 갈 수도 있어.',
       chinese: {
-        hanzi: ['可能', '去', '不了'],
-        pinyin: ['kěnéng', 'qù', 'bù liǎo'],
+        hanzi: ['可能', '去不了'],
+        pinyin: ['kěnéng', 'qù bu liǎo'],
       },
     },
     {
@@ -1859,8 +1853,8 @@ const sentenceData = {
       isFinal: true,
       korean: 'A: 나는 아마 못 갈 수도 있어.',
       chinese: {
-        hanzi: ['我', '可能', '去', '不了'],
-        pinyin: ['wǒ', 'kěnéng', 'qù', 'bù liǎo'],
+        hanzi: ['我', '可能', '去不了'],
+        pinyin: ['wǒ', 'kěnéng', 'qù bu liǎo'],
       },
     },
     {
@@ -1892,7 +1886,7 @@ const sentenceData = {
       korean: '읽어봤어요.',
       chinese: {
         hanzi: ['看过'],
-        pinyin: ['kànguò'],
+        pinyin: ['kànguo'],
       },
     },
     {
@@ -1902,7 +1896,7 @@ const sentenceData = {
       korean: '책을 읽어봤어요.',
       chinese: {
         hanzi: ['看过', '书'],
-        pinyin: ['kànguò', 'shū'],
+        pinyin: ['kànguo', 'shū'],
       },
     },
     {
@@ -1911,8 +1905,8 @@ const sentenceData = {
       isFinal: false,
       korean: '이 책',
       chinese: {
-        hanzi: ['这', '本书'],
-        pinyin: ['zhè', 'běn shū'],
+        hanzi: ['这本书'],
+        pinyin: ['zhè běn shū'],
       },
     },
     {
@@ -1921,8 +1915,8 @@ const sentenceData = {
       isFinal: false,
       korean: '이 책을 읽어봤어요.',
       chinese: {
-        hanzi: ['看过', '这', '本书'],
-        pinyin: ['kànguò', 'zhè', 'běn shū'],
+        hanzi: ['看过', '这', '本', '书'],
+        pinyin: ['kànguo', 'zhè', 'běn', 'shū'],
       },
     },
     {
@@ -1931,8 +1925,8 @@ const sentenceData = {
       isFinal: false,
       korean: '이 책을 읽어봤어요?',
       chinese: {
-        hanzi: ['看过', '这', '本书', '吗'],
-        pinyin: ['kànguò', 'zhè', 'běn shū', 'ma'],
+        hanzi: ['看过', '这', '本', '书', '吗'],
+        pinyin: ['kànguo', 'zhè', 'běn', 'shū', 'ma'],
       },
     },
     {
@@ -1941,8 +1935,8 @@ const sentenceData = {
       isFinal: true,
       korean: 'A: 당신은 이 책을 읽어봤어요?',
       chinese: {
-        hanzi: ['你', '看过', '这', '本书', '吗'],
-        pinyin: ['nǐ', 'kànguò', 'zhè', 'běn shū', 'ma'],
+        hanzi: ['你', '看过', '这', '本', '书', '吗'],
+        pinyin: ['nǐ', 'kànguo', 'zhè', 'běn', 'shū', 'ma'],
       },
     },
     {
@@ -1961,8 +1955,8 @@ const sentenceData = {
       isFinal: false,
       korean: '이 책은 읽을 만해요(읽어 볼 가치가 있어요).',
       chinese: {
-        hanzi: ['这', '本书', '值得', '看'],
-        pinyin: ['zhè', 'běn shū', 'zhídé', 'kàn'],
+        hanzi: ['这', '本', '书', '值得', '看'],
+        pinyin: ['zhè', 'běn', 'shū', 'zhídé', 'kàn'],
       },
     },
     {
@@ -1971,8 +1965,8 @@ const sentenceData = {
       isFinal: true,
       korean: 'B: 읽어봤어요, 이 책은 읽을 만해요(읽어 볼 가치가 있어요).',
       chinese: {
-        hanzi: ['看过', '这', '本书', '值得', '看'],
-        pinyin: ['kànguò', 'zhè', 'běn shū', 'zhídé', 'kàn'],
+        hanzi: ['看过', '这', '本', '书', '值得', '看'],
+        pinyin: ['kànguo', 'zhè', 'běn', 'shū', 'zhídé', 'kàn'],
       },
     },
 
@@ -2044,7 +2038,7 @@ const sentenceData = {
       korean: '사소한 일은 전혀 화낼 만한 게 아니야(화낼 가치가 없어).',
       chinese: {
         hanzi: ['小事', '根本', '不值得', '生气'],
-        pinyin: ['xiaoshì', 'gēmběn', 'bù zhídé', 'shēng qì'],
+        pinyin: ['xiaoshì', 'gēnběn', 'bù zhídé', 'shēng qì'],
       },
     },
     {
@@ -2053,8 +2047,8 @@ const sentenceData = {
       isFinal: false,
       korean: '이런 사소한 일',
       chinese: {
-        hanzi: ['这种', '小事'],
-        pinyin: ['zhè zhǒng', 'xiaoshì'],
+        hanzi: ['这种小事'],
+        pinyin: ['zhè zhǒng xiǎoshì'],
       },
     },
     {
@@ -2063,8 +2057,8 @@ const sentenceData = {
       isFinal: true,
       korean: 'B: 이런 사소한 일은 전혀 화낼 만한 게 아니야(화낼 가치가 없어).',
       chinese: {
-        hanzi: ['这种', '小事', '根本', '不值得', '生气'],
-        pinyin: ['zhè zhǒng', 'xiaoshì', 'gēmběn', 'bù zhídé', 'shēng qì'],
+        hanzi: ['这', '种', '小事', '根本', '不值得', '生气'],
+        pinyin: ['zhè', 'zhǒng', 'xiaoshì', 'gēnběn', 'bù zhídé', 'shēng qì'],
       },
     },
   ],
@@ -2077,7 +2071,7 @@ const sentenceData = {
       korean: '중국어를 말해요.',
       chinese: {
         hanzi: ['说', '汉语'],
-        pinyin: ['shuō', 'hànyǔ'],
+        pinyin: ['shuō', 'Hànyǔ'],
       },
     },
     {
@@ -2087,7 +2081,7 @@ const sentenceData = {
       korean: '중국어를 말할 줄 알아요.',
       chinese: {
         hanzi: ['会', '说', '汉语'],
-        pinyin: ['huì', 'shuō', 'hànyǔ'],
+        pinyin: ['huì', 'shuō', 'Hànyǔ'],
       },
     },
     {
@@ -2097,7 +2091,7 @@ const sentenceData = {
       korean: '저는 중국어를 말할 줄 알아요.',
       chinese: {
         hanzi: ['我', '会', '说', '汉语'],
-        pinyin: ['wǒ', 'huì', 'shuō', 'hànyǔ'],
+        pinyin: ['wǒ', 'huì', 'shuō', 'Hànyǔ'],
       },
     },
     {
@@ -2107,7 +2101,7 @@ const sentenceData = {
       korean: '영어를 말해요.',
       chinese: {
         hanzi: ['说', '英语'],
-        pinyin: ['shuō', 'yīngyǔ'],
+        pinyin: ['shuō', 'Yīngyǔ'],
       },
     },
     {
@@ -2117,7 +2111,7 @@ const sentenceData = {
       korean: '영어를 말할 줄 알아요.',
       chinese: {
         hanzi: ['会', '说', '英语'],
-        pinyin: ['huì', 'shuō', 'yīngyǔ'],
+        pinyin: ['huì', 'shuō', 'Yīngyǔ'],
       },
     },
     {
@@ -2127,7 +2121,7 @@ const sentenceData = {
       korean: '……, 영어도 말할 줄 알아요.',
       chinese: {
         hanzi: ['……, 也', '会', '说', '英语'],
-        pinyin: ['……, yě', 'huì', 'shuō', 'yīngyǔ'],
+        pinyin: ['……, yě', 'huì', 'shuō', 'Yīngyǔ'],
       },
     },
     {
@@ -2137,7 +2131,7 @@ const sentenceData = {
       korean: 'A: 저는 중국어도 말할 줄 알고, 영어도 말할 줄 알아요.',
       chinese: {
         hanzi: ['我', '会', '说', '汉语', '也会', '说', '英语'],
-        pinyin: ['wǒ', 'huì', 'shuō', 'hànyǔ', 'yě', 'huì', 'shuō', 'yīngyǔ'],
+        pinyin: ['wǒ', 'huì', 'shuō', 'Hànyǔ', 'yě', 'huì', 'shuō', 'Yīngyǔ'],
       },
     },
     {
@@ -2147,17 +2141,17 @@ const sentenceData = {
       korean: '중국어를 말해요.',
       chinese: {
         hanzi: ['说', '汉语'],
-        pinyin: ['shuō', 'hànyǔ'],
+        pinyin: ['shuō', 'Hànyǔ'],
       },
     },
     {
       id: 'sentence26',
       level: 9,
-      isFinal: true,
+      isFinal: false,
       korean: '중국어를 말할 줄 알아요.',
       chinese: {
         hanzi: ['会', '说', '汉语'],
-        pinyin: ['huì', 'shuō', 'hànyǔ'],
+        pinyin: ['huì', 'shuō', 'Hànyǔ'],
       },
     },
     {
@@ -2167,7 +2161,7 @@ const sentenceData = {
       korean: '중국어밖에 말할 줄 몰라요.',
       chinese: {
         hanzi: ['只会', '说', '汉语'],
-        pinyin: ['zhǐ huì', 'shuō', 'hànyǔ'],
+        pinyin: ['zhǐ huì', 'shuō', 'Hànyǔ'],
       },
     },
     {
@@ -2177,7 +2171,7 @@ const sentenceData = {
       korean: '저는 중국어밖에 말할 줄 몰라요.',
       chinese: {
         hanzi: ['我', '只', '会', '说', '汉语'],
-        pinyin: ['wǒ', 'zhǐ', 'huì', 'shuō', 'hànyǔ'],
+        pinyin: ['wǒ', 'zhǐ', 'huì', 'shuō', 'Hànyǔ'],
       },
     },
     {
@@ -2207,7 +2201,7 @@ const sentenceData = {
       korean: 'B: 저는 중국어밖에 말할 줄 몰라요, 진짜 당신이 부러워요!',
       chinese: {
         hanzi: ['我', '只', '会', '说', '汉语', '真', '羡慕', '你'],
-        pinyin: ['wǒ', 'zhǐ', 'huì', 'shuō', 'hànyǔ', 'zhēn', 'xiànmù', 'nǐ'],
+        pinyin: ['wǒ', 'zhǐ', 'huì', 'shuō', 'Hànyǔ', 'zhēn', 'xiànmù', 'nǐ'],
       },
     },
 
@@ -2258,7 +2252,7 @@ const sentenceData = {
       isFinal: false,
       korean: '일기예보에 따르면 내일 비가 올 거래요.',
       chinese: {
-        hanzi: ['天气预报', '说明天', '会', '下雨'],
+        hanzi: ['天气预报', '说', '明天', '会', '下雨'],
         pinyin: ['tiānqì yùbào', 'shuō', 'míngtiān', 'huì', 'xià yǔ'],
       },
     },
@@ -2268,8 +2262,8 @@ const sentenceData = {
       isFinal: false,
       korean: '폭우래요(비가 많이 내린대요).',
       chinese: {
-        hanzi: ['是大雨'],
-        pinyin: ['shì dà yǔ'],
+        hanzi: ['是', '大雨'],
+        pinyin: ['shì', 'dà yǔ'],
       },
     },
     {
@@ -2278,8 +2272,8 @@ const sentenceData = {
       isFinal: false,
       korean: '……, 게다가 폭우래요(비가 많이 내린대요).',
       chinese: {
-        hanzi: ['……, 而且', '是大雨'],
-        pinyin: ['……, érqiě', 'shì dà yǔ'],
+        hanzi: ['……, 而且', '是', '大雨'],
+        pinyin: ['……, érqiě', 'shì', 'dà yǔ'],
       },
     },
     {
@@ -2289,7 +2283,7 @@ const sentenceData = {
       korean:
         'A: 일기예보에 따르면 내일 비가 올 거래요, 게다가 폭우래요(비가 많이 내린대요).',
       chinese: {
-        hanzi: ['天气预报', '说明天', '会', '下雨', '而且', '是大雨'],
+        hanzi: ['天气预报', '说', '明天', '会', '下雨', '而且', '是', '大雨'],
         pinyin: [
           'tiānqì yùbào',
           'shuō',
@@ -2297,7 +2291,8 @@ const sentenceData = {
           'huì',
           'xià yǔ',
           'érqiě',
-          'shì dà yǔ',
+          'shì',
+          'dà yǔ',
         ],
       },
     },
@@ -2335,7 +2330,7 @@ const sentenceData = {
       id: 'sentence27',
       level: 12,
       isFinal: true,
-      korean: 'B: 저는 다른 날에 가는 게 좋겠어요.',
+      korean: 'B: 그럼 저는 다른 날에 가는 게 좋겠어요.',
       chinese: {
         hanzi: ['那', '我', '还是', '改天', '去', '吧'],
         pinyin: ['nà', 'wǒ', 'háishi', 'gǎitiān', 'qù', 'ba'],
@@ -2376,8 +2371,8 @@ const sentenceData = {
     {
       id: 'sentence28',
       level: 4,
-      isFinal: true,
-      korean: 'A: 그녀는 운전할 줄 몰라요.',
+      isFinal: false,
+      korean: '그녀는 운전할 줄 몰라요.',
       chinese: {
         hanzi: ['她', '不会', '开车'],
         pinyin: ['tā', 'bú huì', 'kāi chē'],
@@ -2427,7 +2422,7 @@ const sentenceData = {
       id: 'sentence28',
       level: 9,
       isFinal: true,
-      korean: '그녀는 운전할 줄 몰라서 매일 지하철을 타고 출근해요.',
+      korean: 'A: 그녀는 운전할 줄 몰라서 매일 지하철을 타고 출근해요.',
       chinese: {
         hanzi: ['她', '不会', '开车', '所以', '每天', '坐', '地铁', '上班'],
         pinyin: [
@@ -2498,8 +2493,8 @@ const sentenceData = {
       isFinal: true,
       korean: 'B: 지하철은 빠르기도 하고 싸기도 해요, 얼마나 좋아요.',
       chinese: {
-        hanzi: ['地铁', '又', '快', '又', '便宜', '多好啊'],
-        pinyin: ['dìtiě', 'yòu', 'kuài', 'yòu', 'piányi', 'duō hǎo a'],
+        hanzi: ['地铁', '又', '快', '又', '便宜', '多', '好', '啊'],
+        pinyin: ['dìtiě', 'yòu', 'kuài', 'yòu', 'piányi', 'duō', 'hǎo', 'a'],
       },
     },
 
@@ -2590,7 +2585,7 @@ const sentenceData = {
       isFinal: false,
       korean: '그는 단지 아직 전화할 시간이 없을 뿐이에요.',
       chinese: {
-        hanzi: ['他', '只是', '还没有', '时间', '打', '电话'],
+        hanzi: ['他', '只是', '还', '没有', '时间', '打', '电话'],
         pinyin: ['tā', 'zhǐshì', 'hái', 'méiyǒu', 'shíjiān', 'dǎ', 'diànhuà'],
       },
     },
@@ -2608,7 +2603,8 @@ const sentenceData = {
           '的',
           '他',
           '只是',
-          '还没有',
+          '还',
+          '没有',
           '时间',
           '打',
           '电话',
@@ -2632,7 +2628,7 @@ const sentenceData = {
       id: 'sentence29',
       level: 11,
       isFinal: false,
-      korean: '그럼 저는 조금만(좀) 기다릴게요.',
+      korean: '저는 조금만(좀) 기다릴게요.',
       chinese: {
         hanzi: ['我', '等等'],
         pinyin: ['wǒ', 'děngdeng'],
@@ -2654,7 +2650,7 @@ const sentenceData = {
       isFinal: false,
       korean: '저는 조금만(좀) 더 기다려볼게요.',
       chinese: {
-        hanzi: ['我', '再等等', '吧'],
+        hanzi: ['我', '再', '等等', '吧'],
         pinyin: ['wǒ', 'zài', 'děngdeng', 'ba'],
       },
     },
@@ -2664,7 +2660,7 @@ const sentenceData = {
       isFinal: true,
       korean: 'B: 그럼 저는 조금만(좀) 더 기다려볼게요.',
       chinese: {
-        hanzi: ['那', '我', '再等等', '吧'],
+        hanzi: ['那', '我', '再', '等等', '吧'],
         pinyin: ['nà', 'wǒ', 'zài', 'děngdeng', 'ba'],
       },
     },
@@ -2677,7 +2673,7 @@ const sentenceData = {
       korean: '한국어를 알아들어요.',
       chinese: {
         hanzi: ['听懂', '韩语'],
-        pinyin: ['tīngdǒng', 'hányǔ'],
+        pinyin: ['tīngdǒng', 'Hányǔ'],
       },
     },
     {
@@ -2687,7 +2683,7 @@ const sentenceData = {
       korean: '한국어를 알아들을 수 있어요.',
       chinese: {
         hanzi: ['能', '听懂', '韩语'],
-        pinyin: ['néng', 'tīngdǒng', 'hányǔ'],
+        pinyin: ['néng', 'tīngdǒng', 'Hányǔ'],
       },
     },
     {
@@ -2697,7 +2693,7 @@ const sentenceData = {
       korean: '그녀는 한국어를 알아들을 수 있어요.',
       chinese: {
         hanzi: ['她', '能', '听懂', '韩语'],
-        pinyin: ['tā', 'néng', 'tīngdǒng', 'hányǔ'],
+        pinyin: ['tā', 'néng', 'tīngdǒng', 'Hányǔ'],
       },
     },
     {
@@ -2737,7 +2733,7 @@ const sentenceData = {
       korean: 'A: 그녀는 한국어를 알아들을 수 있지만 말할 줄 몰라요.',
       chinese: {
         hanzi: ['她', '能', '听懂', '韩语', '但是', '不会', '说'],
-        pinyin: ['tā', 'néng', 'tīngdǒng', 'hányǔ', 'dànshì', 'bú huì', 'shuō'],
+        pinyin: ['tā', 'néng', 'tīngdǒng', 'Hányǔ', 'dànshì', 'bú huì', 'shuō'],
       },
     },
     {
@@ -2776,8 +2772,8 @@ const sentenceData = {
       isFinal: true,
       korean: 'B: 알아듣기만 해도 이미 정말 대단해요.',
       chinese: {
-        hanzi: ['听', '得', '懂', '就', '已经', '很', '厉害', '了'],
-        pinyin: ['tīng', 'de', 'dǒng', 'jiù', 'yǐjing', 'hěn', 'lìhai', 'le'],
+        hanzi: ['听得懂', '就', '已经', '很', '厉害', '了'],
+        pinyin: ['tīng de dǒng', 'jiù', 'yǐjing', 'hěn', 'lìhai', 'le'],
       },
     },
   ],
@@ -2829,7 +2825,7 @@ const sentenceData = {
       isFinal: false,
       korean: '신분증이 있어야만 들어갈 수 있어요.',
       chinese: {
-        hanzi: ['要', '有', '身份证', '才能', '进'],
+        hanzi: ['要', '有', '身份证', '才', '能', '进'],
         pinyin: ['Yào', 'yǒu', 'shēnfènzhèng', 'cái', 'néng', 'jìn'],
       },
     },
@@ -2839,7 +2835,7 @@ const sentenceData = {
       isFinal: true,
       korean: 'A: 이 아파트 단지는 신분증이 있어야만 들어갈 수 있어요.',
       chinese: {
-        hanzi: ['这个', '小区', '要', '有', '身份证', '才能', '进'],
+        hanzi: ['这个', '小区', '要', '有', '身份证', '才', '能', '进'],
         pinyin: [
           'zhè ge',
           'xiǎoqū',
@@ -2868,15 +2864,15 @@ const sentenceData = {
       isFinal: false,
       korean: '신분증을 두고 왔어요.',
       chinese: {
-        hanzi: ['忘带', '身份证', '了'],
-        pinyin: ['wàng dài', 'shēnfènzhèng', 'le'],
+        hanzi: ['忘带身份证', '了'],
+        pinyin: ['wàng dài shēnfènzhèng', 'le'],
       },
     },
     {
       id: 'sentence31',
       level: 9,
-      isFinal: true,
-      korean: 'A: 저는 신분증을 두고 왔어요.',
+      isFinal: false,
+      korean: '저는 신분증을 두고 왔어요.',
       chinese: {
         hanzi: ['我', '忘带', '身份证', '了'],
         pinyin: ['wǒ', 'wàng dài', 'shēnfènzhèng', 'le'],
@@ -3046,10 +3042,10 @@ const sentenceData = {
       id: 'sentence32',
       level: 13,
       isFinal: true,
-      korean: 'B: 그를 한번 보러 갈까요?.',
+      korean: 'B: 그를 한번 보러 갈까요?',
       chinese: {
-        hanzi: ['要', '不要', '去', '看看', '他'],
-        pinyin: ['yào', 'bù yào', 'qù', 'kànkan', 'tā'],
+        hanzi: ['要不要', '去', '看看', '他'],
+        pinyin: ['yào bu yào', 'qù', 'kànkan', 'tā'],
       },
     },
 
@@ -3090,8 +3086,8 @@ const sentenceData = {
       isFinal: false,
       korean: '자기 전에 휴대폰 하면 안 돼요.',
       chinese: {
-        hanzi: ['睡', '觉', '前', '不能', '玩(儿)', '手机'],
-        pinyin: ['shuì', 'jiào', 'qián', 'bù néng', 'wán(r)', 'shǒujī'],
+        hanzi: ['睡觉', '前', '不能', '玩(儿)', '手机'],
+        pinyin: ['shuì jiào', 'qián', 'bù néng', 'wán(r)', 'shǒujī'],
       },
     },
     {
@@ -3120,20 +3116,9 @@ const sentenceData = {
       isFinal: true,
       korean: 'A: 자기 전에 휴대폰 하면 안 돼요, 눈에 안 좋아요.',
       chinese: {
-        hanzi: [
-          '睡',
-          '觉',
-          '前',
-          '不能',
-          '玩(儿)',
-          '手机',
-          '对',
-          '眼睛',
-          '不好',
-        ],
+        hanzi: ['睡觉', '前', '不能', '玩(儿)', '手机', '对', '眼睛', '不好'],
         pinyin: [
-          'shuì',
-          'jiào',
+          'shuì jiào',
           'qián',
           'bù néng',
           'wán(r)',
@@ -3161,7 +3146,7 @@ const sentenceData = {
       korean: '안 졸려요.',
       chinese: {
         hanzi: ['不', '困'],
-        pinyin: ['bù', 'kùn'],
+        pinyin: ['bú', 'kùn'],
       },
     },
     {
@@ -3171,7 +3156,7 @@ const sentenceData = {
       korean: '아직 안 졸려요~',
       chinese: {
         hanzi: ['还', '不', '困', '呢'],
-        pinyin: ['hái', 'bù', 'kùn', 'ne'],
+        pinyin: ['hái', 'bú', 'kùn', 'ne'],
       },
     },
     {
@@ -3181,7 +3166,7 @@ const sentenceData = {
       korean: '저 아직 안 졸려요~',
       chinese: {
         hanzi: ['我', '还', '不', '困', '呢'],
-        pinyin: ['wǒ', 'hái', 'bù', 'kùn', 'ne'],
+        pinyin: ['wǒ', 'hái', 'bú', 'kùn', 'ne'],
       },
     },
     {
@@ -3191,7 +3176,7 @@ const sentenceData = {
       korean: 'B: 근데 저 아직 안 졸려요~',
       chinese: {
         hanzi: ['可', '我', '还', '不', '困', '呢'],
-        pinyin: ['kě', 'wǒ', 'hái', 'bù', 'kùn', 'ne'],
+        pinyin: ['kě', 'wǒ', 'hái', 'bú', 'kùn', 'ne'],
       },
     },
 
@@ -3203,7 +3188,7 @@ const sentenceData = {
       korean: '해내다.',
       chinese: {
         hanzi: ['做到'],
-        pinyin: ['zuò dào'],
+        pinyin: ['zuòdào'],
       },
     },
     {
@@ -3213,7 +3198,7 @@ const sentenceData = {
       korean: '충분히 해낼 수 있다.',
       chinese: {
         hanzi: ['能够', '做到'],
-        pinyin: ['nénggòu', 'zuò dào'],
+        pinyin: ['nénggòu', 'zuòdào'],
       },
     },
     {
@@ -3223,7 +3208,7 @@ const sentenceData = {
       korean: '……하면, 충분히 해낼 수 있다.',
       chinese: {
         hanzi: ['……，就', '能够', '做到'],
-        pinyin: ['jiù', 'nénggòu', 'zuò dào'],
+        pinyin: ['jiù', 'nénggòu', 'zuòdào'],
       },
     },
     {
@@ -3252,8 +3237,8 @@ const sentenceData = {
       isFinal: false,
       korean: '너가 노력한다면, …… .',
       chinese: {
-        hanzi: ['你', '努力', '的', '话'],
-        pinyin: ['nǐ', 'nǔlì', 'de', 'huà'],
+        hanzi: ['你', '努力', '的话'],
+        pinyin: ['nǐ', 'nǔlì', 'de huà'],
       },
     },
     {
@@ -3262,8 +3247,8 @@ const sentenceData = {
       isFinal: true,
       korean: 'B: 너가 노력한다면, 충분히 해낼 수 있어.',
       chinese: {
-        hanzi: ['你', '努力', '的', '话', '就', '能够', '做到'],
-        pinyin: ['nǐ', 'nǔlì', 'de', 'huà', 'jiù', 'nénggòu', 'zuò dào'],
+        hanzi: ['你', '努力', '的话', '就', '能够', '做到'],
+        pinyin: ['nǐ', 'nǔlì', 'de huà', 'jiù', 'nénggòu', 'zuòdào'],
       },
     },
     {
@@ -3302,7 +3287,7 @@ const sentenceData = {
       isFinal: false,
       korean: '하지만 가끔 진짜 너무 힘들어.',
       chinese: {
-        hanzi: ['可是', '有时候', '真的很', '累'],
+        hanzi: ['可是', '有时候', '真的', '很', '累'],
         pinyin: ['kěshì', 'yǒushíhou', 'zhēnde', 'hěn', 'lèi'],
       },
     },
@@ -3310,7 +3295,7 @@ const sentenceData = {
       id: 'sentence34',
       level: 12,
       isFinal: false,
-      korean: '나 알아, …… .',
+      korean: '나 알아(나도 알아), …… .',
       chinese: {
         hanzi: ['我知道'],
         pinyin: ['wǒ zhīdao'],
@@ -3848,7 +3833,7 @@ const sentenceData = {
       korean: '좀 쉬어요.',
       chinese: {
         hanzi: ['休息', '一下'],
-        pinyin: ['xiūxi', 'yīxià'],
+        pinyin: ['xiūxi', 'yíxià'],
       },
     },
     {
@@ -3858,7 +3843,7 @@ const sentenceData = {
       korean: '좀 쉬고 싶어요.',
       chinese: {
         hanzi: ['想', '休息', '一下'],
-        pinyin: ['xiǎng', 'xiūxi', 'yīxià'],
+        pinyin: ['xiǎng', 'xiūxi', 'yíxià'],
       },
     },
     {
@@ -3868,7 +3853,7 @@ const sentenceData = {
       korean: '저는 좀 쉬고 싶어요.',
       chinese: {
         hanzi: ['我', '想', '休息', '一下'],
-        pinyin: ['wǒ', 'xiǎng', 'xiūxi', 'yīxià'],
+        pinyin: ['wǒ', 'xiǎng', 'xiūxi', 'yíxià'],
       },
     },
     {
@@ -3898,7 +3883,7 @@ const sentenceData = {
       korean: 'A: 저는 좀 쉬고 싶어요, 이따가 다시 얘기해요.',
       chinese: {
         hanzi: ['我', '想', '休息', '一下', '等会儿', '再', '聊'],
-        pinyin: ['wǒ', 'xiǎng', 'xiūxi', 'yīxià', 'děnghuìr', 'zài', 'liáo'],
+        pinyin: ['wǒ', 'xiǎng', 'xiūxi', 'yíxià', 'děnghuìr', 'zài', 'liáo'],
       },
     },
     {
@@ -3969,8 +3954,8 @@ const sentenceData = {
       isFinal: false,
       korean: '(밖에) 나가고 싶지 않아요.',
       chinese: {
-        hanzi: ['不', '想', '出门'],
-        pinyin: ['bù', 'xiǎng', 'chū mén'],
+        hanzi: ['不想', '出门'],
+        pinyin: ['bù xiǎng', 'chū mén'],
       },
     },
     {
@@ -3979,8 +3964,8 @@ const sentenceData = {
       isFinal: false,
       korean: '오늘은 (밖에) 나가고 싶지 않아요.',
       chinese: {
-        hanzi: ['今天', '不', '想', '出门'],
-        pinyin: ['jīntiān', 'bù', 'xiǎng', 'chū mén'],
+        hanzi: ['今天', '不想', '出门'],
+        pinyin: ['jīntiān', 'bù xiǎng', 'chū mén'],
       },
     },
     {
@@ -3989,8 +3974,8 @@ const sentenceData = {
       isFinal: false,
       korean: '저는 오늘 (밖에) 나가고 싶지 않아요.',
       chinese: {
-        hanzi: ['我', '今天', '不', '想', '出门'],
-        pinyin: ['wǒ', 'jīntiān', 'bù', 'xiǎng', 'chū mén'],
+        hanzi: ['我', '今天', '不想', '出门'],
+        pinyin: ['wǒ', 'jīntiān', 'bù xiǎng', 'chū mén'],
       },
     },
     {
@@ -4009,8 +3994,8 @@ const sentenceData = {
       isFinal: false,
       korean: '하고 싶지 않아요.',
       chinese: {
-        hanzi: ['不', '想', '做'],
-        pinyin: ['bù', 'xiǎng', 'zuò'],
+        hanzi: ['不想', '做'],
+        pinyin: ['bù xiǎng', 'zuò'],
       },
     },
     {
@@ -4039,8 +4024,8 @@ const sentenceData = {
       isFinal: false,
       korean: '아무것도 하고 싶지 않아요.',
       chinese: {
-        hanzi: ['什么也', '不', '想', '做'],
-        pinyin: ['shénme yě', 'bù', 'xiǎng', 'zuò'],
+        hanzi: ['什么也', '不想', '做'],
+        pinyin: ['shénme yě', 'bù xiǎng', 'zuò'],
       },
     },
     {
@@ -4049,16 +4034,14 @@ const sentenceData = {
       isFinal: true,
       korean: 'A: 저는 오늘 나가고 싶지 않고, 아무것도 하고 싶지 않아요.',
       chinese: {
-        hanzi: ['我', '今天', '不', '想', '出门', '什么也', '不', '想', '做'],
+        hanzi: ['我', '今天', '不想', '出门', '什么也', '不想', '做'],
         pinyin: [
           'wǒ',
           'jīntiān',
-          'bù',
-          'xiǎng',
+          'bù xiǎng',
           'chū mén',
           'shénme yě',
-          'bù',
-          'xiǎng',
+          'bù xiǎng',
           'zuò',
         ],
       },
@@ -4080,7 +4063,7 @@ const sentenceData = {
       korean: '푹 좀 쉬어요.',
       chinese: {
         hanzi: ['好好', '休息', '一下'],
-        pinyin: ['hǎohāo', 'xiūxi', 'yīxià'],
+        pinyin: ['hǎohāo', 'xiūxi', 'yíxià'],
       },
     },
     {
@@ -4090,7 +4073,7 @@ const sentenceData = {
       korean: 'B: 그럼 푹 좀 쉬어요~',
       chinese: {
         hanzi: ['那', '好好', '休息', '一下', '吧'],
-        pinyin: ['nà', 'hǎohāo', 'xiūxi', 'yīxià', 'ba'],
+        pinyin: ['nà', 'hǎohāo', 'xiūxi', 'yíxià', 'ba'],
       },
     },
   ],
@@ -4110,7 +4093,7 @@ const sentenceData = {
       id: 'sentence41',
       level: 2,
       isFinal: false,
-      korean: '푹 쉬어야 해요)',
+      korean: '푹 쉬어야 해요.',
       chinese: {
         hanzi: ['应该', '多', '休息'],
         pinyin: ['yīnggāi', 'duō', 'xiūxi'],
@@ -4120,7 +4103,7 @@ const sentenceData = {
       id: 'sentence41',
       level: 3,
       isFinal: false,
-      korean: '당신은 푹 쉬어야 해요',
+      korean: '당신은 푹 쉬어야 해요.',
       chinese: {
         hanzi: ['你', '应该', '多', '休息'],
         pinyin: ['nǐ', 'yīnggāi', 'duō', 'xiūxi'],
@@ -4210,7 +4193,7 @@ const sentenceData = {
       id: 'sentence41',
       level: 11,
       isFinal: true,
-      korean: 'B: 저는 알아요, 하지만 일이 너무 많아요.',
+      korean: 'B: 저는 알아요(저도 알아요), 하지만 일이 너무 많아요.',
       chinese: {
         hanzi: ['我', '知道', '可是', '事情', '太', '多', '了'],
         pinyin: ['wǒ', 'zhīdao', 'kěshì', 'shìqing', 'tài', 'duō', 'le'],
@@ -4282,9 +4265,9 @@ const sentenceData = {
       id: 'sentence42',
       level: 7,
       isFinal: true,
-      korean: '당신은 자꾸 밤새면 안 돼요, 건강에 안 좋아요.',
+      korean: 'A: 당신은 자꾸 밤새면 안 돼요, 건강에 안 좋아요.',
       chinese: {
-        hanzi: ['你', '不应该', '总是', '熬夜', '对身体', '不好'],
+        hanzi: ['你', '不应该', '总是', '熬夜', '对', '身体', '不好'],
         pinyin: [
           'nǐ',
           'bù yīnggāi',
@@ -4394,8 +4377,8 @@ const sentenceData = {
       isFinal: true,
       korean: 'A: 저는 가야 해요, 집에 아직 일이 있어요.',
       chinese: {
-        hanzi: ['我', '得', '走', '了', '家里', '还有', '事'],
-        pinyin: ['wǒ', 'děi', 'zǒu', 'le', 'jiā', 'lǐ', 'hái', 'yǒu', 'shì'],
+        hanzi: ['我', '得', '走', '了', '家里', '还', '有', '事'],
+        pinyin: ['wǒ', 'děi', 'zǒu', 'le', 'jiā lǐ', 'hái', 'yǒu', 'shì'],
       },
     },
     {
@@ -4446,8 +4429,8 @@ const sentenceData = {
       isFinal: false,
       korean: '나에게 시집 와.',
       chinese: {
-        hanzi: ['嫁', '给', '我'],
-        pinyin: ['jià', 'gěi', 'wǒ'],
+        hanzi: ['嫁给我'],
+        pinyin: ['jià gěi wǒ'],
       },
     },
     {
@@ -4456,8 +4439,8 @@ const sentenceData = {
       isFinal: false,
       korean: '너는 나에게 시집 와.',
       chinese: {
-        hanzi: ['你', '嫁', '给我'],
-        pinyin: ['nǐ', 'jià', 'gěi', 'wǒ'],
+        hanzi: ['你', '嫁给', '我'],
+        pinyin: ['nǐ', 'jià gěi', 'wǒ'],
       },
     },
     {
@@ -4466,18 +4449,18 @@ const sentenceData = {
       isFinal: false,
       korean: '너는 나에게 시집 올래(결혼할래)?',
       chinese: {
-        hanzi: ['你', '嫁', '给我', '吗'],
-        pinyin: ['nǐ', 'jià', 'gěi', 'wǒ', 'ma'],
+        hanzi: ['你', '嫁给', '我', '吗'],
+        pinyin: ['nǐ', 'jià gěi', 'wǒ', 'ma'],
       },
     },
     {
       id: 'sentence44',
       level: 4,
-      isFinal: true,
-      korean: 'A: 너는 나에게 시집 와 줄래? (결혼해 줄래?)',
+      isFinal: false,
+      korean: '너는 나에게 시집 와 줄래? (결혼해 줄래?)',
       chinese: {
-        hanzi: ['你', '愿意', '嫁', '给我', '吗'],
-        pinyin: ['nǐ', 'yuànyì', 'jià', 'gěi', 'wǒ', 'ma'],
+        hanzi: ['你', '愿意', '嫁给', '我', '吗'],
+        pinyin: ['nǐ', 'yuànyì', 'jià gěi', 'wǒ', 'ma'],
       },
     },
     {
@@ -4507,7 +4490,7 @@ const sentenceData = {
       korean: '진짜 정말 너를 사랑해.',
       chinese: {
         hanzi: ['真的', '很', '爱', '你'],
-        pinyin: ['zhēn de', 'hěn', 'ài', 'nǐ'],
+        pinyin: ['zhēnde', 'hěn', 'ài', 'nǐ'],
       },
     },
     {
@@ -4517,7 +4500,7 @@ const sentenceData = {
       korean: '나는 진짜 정말 너를 사랑해.',
       chinese: {
         hanzi: ['我', '真的', '很', '爱', '你'],
-        pinyin: ['wǒ', 'zhēn de', 'hěn', 'ài', 'nǐ'],
+        pinyin: ['wǒ', 'zhēnde', 'hěn', 'ài', 'nǐ'],
       },
     },
     {
@@ -4527,16 +4510,26 @@ const sentenceData = {
       korean:
         'A: 너는 나에게 시집 와 줄래(결혼해 줄래)? 나는 진짜 정말 너를 사랑해.',
       chinese: {
-        hanzi: ['你', '愿意', '嫁', '给我', '吗', '我', '真的很', '爱', '你'],
+        hanzi: [
+          '你',
+          '愿意',
+          '嫁给',
+          '我',
+          '吗',
+          '我',
+          '真的',
+          '很',
+          '爱',
+          '你',
+        ],
         pinyin: [
           'nǐ',
           'yuànyì',
-          'jià',
-          'gěi',
+          'jià gěi',
           'wǒ',
           'ma',
           'wǒ',
-          'zhēn de',
+          'zhēnde',
           'hěn',
           'ài',
           'nǐ',
@@ -4602,7 +4595,7 @@ const sentenceData = {
       korean: '자신의 생각을 바꾸길 원하지 않아.',
       chinese: {
         hanzi: ['不愿意', '改变', '自己', ' 的', '想法'],
-        pinyin: ['bù yuànyì', 'gǎibiàn', 'zìjǐ', 'de', 'xiǎngfǎ'],
+        pinyin: ['bú yuànyì', 'gǎibiàn', 'zìjǐ', 'de', 'xiǎngfǎ'],
       },
     },
     {
@@ -4612,14 +4605,14 @@ const sentenceData = {
       korean: '어떤 사람들은 자신의 생각을 바꾸길 원하지 않아.',
       chinese: {
         hanzi: ['有些人', '不愿意', '改变', '自己', ' 的', '想法'],
-        pinyin: ['yǒuxiē rén', 'bù yuànyì', 'gǎibiàn', 'zìjǐ', 'de', 'xiǎngfǎ'],
+        pinyin: ['yǒuxiē rén', 'bú yuànyì', 'gǎibiàn', 'zìjǐ', 'de', 'xiǎngfǎ'],
       },
     },
     {
       id: 'sentence45',
       level: 5,
       isFinal: false,
-      korean: '그 사람들은 ......라고 생각하죠.',
+      korean: '그 사람들은 ......라고 생각해.',
       chinese: {
         hanzi: ['他们', '觉得......'],
         pinyin: ['tāmen', 'juéde'],
@@ -4679,7 +4672,7 @@ const sentenceData = {
         ],
         pinyin: [
           'yǒuxiē rén',
-          'bù yuànyì',
+          'bú yuànyì',
           'gǎibiàn',
           'zìjǐ',
           'de',
@@ -4867,7 +4860,7 @@ const sentenceData = {
       korean: '혼자 밤길을 걸어요.',
       chinese: {
         hanzi: ['一个人', '走', '夜路'],
-        pinyin: ['yígè rén', 'zǒu', 'yèlù'],
+        pinyin: ['yí ge rén', 'zǒu', 'yèlù'],
       },
     },
     {
@@ -4877,7 +4870,7 @@ const sentenceData = {
       korean: '나는 혼자 밤길을 걷지 못하겠어.',
       chinese: {
         hanzi: ['我', '不敢', '一个人', '走', '夜路'],
-        pinyin: ['wǒ', 'bù gǎn', 'yígè rén', 'zǒu', 'yèlù'],
+        pinyin: ['wǒ', 'bù gǎn', 'yí ge rén', 'zǒu', 'yèlù'],
       },
     },
     {
@@ -4943,7 +4936,7 @@ const sentenceData = {
         pinyin: [
           'wǒ',
           'bù gǎn',
-          'yígè rén',
+          'yí ge rén',
           'zǒu',
           'yèlù',
           'suǒyǐ',
@@ -4972,7 +4965,7 @@ const sentenceData = {
       korean: '혼자 다니는 건 너무 무서워.',
       chinese: {
         hanzi: ['一个人', '走', '太', '可怕', '了'],
-        pinyin: ['yígè rén', 'zǒu', 'tài', 'kěpà', 'le'],
+        pinyin: ['yí ge rén', 'zǒu', 'tài', 'kěpà', 'le'],
       },
     },
     {
@@ -4982,7 +4975,7 @@ const sentenceData = {
       korean: '밤에 혼자 다니는 건 너무 무서워요.',
       chinese: {
         hanzi: ['晚上', '一个人', '走', '太', '可怕', '了'],
-        pinyin: ['wǎnshang', 'yígè rén', 'zǒu', 'tài', 'kěpà', 'le'],
+        pinyin: ['wǎnshang', 'yí ge rén', 'zǒu', 'tài', 'kěpà', 'le'],
       },
     },
     {
@@ -4991,12 +4984,11 @@ const sentenceData = {
       isFinal: true,
       korean: 'B: 나도 그래, 밤에 혼자 다니는 건 너무 무서워.',
       chinese: {
-        hanzi: ['我', '也是', '晚上', '一个人', '走', '太', '可怕', '了'],
+        hanzi: ['我也是', '晚上', '一个人', '走', '太', '可怕', '了'],
         pinyin: [
-          'wǒ',
-          'yě shì',
+          'wǒ yě shì',
           'wǎnshang',
-          'yígè rén',
+          'yí ge rén',
           'zǒu',
           'tài',
           'kěpà',
@@ -5185,9 +5177,11 @@ const sentenceData = {
       korean:
         'A: 이 책은 읽을 만해요(읽어 볼 가치가 있어요), 많은 걸 배울 수 있어요.',
       chinese: {
-        hanzi: ['这本书', '值得', '看', '能', '学到', '很多', '东西'],
+        hanzi: ['这', '本', '书', '值得', '看', '能', '学到', '很多', '东西'],
         pinyin: [
-          'zhè běn shū',
+          'zhè',
+          'běn',
+          'shū',
           'zhídé',
           'kàn',
           'néng',
@@ -5295,8 +5289,8 @@ const sentenceData = {
       isFinal: false,
       korean: '이런 사소한 일은 전혀 화낼 만한 게 아니야.',
       chinese: {
-        hanzi: ['这种小事', '根本', '不值得', '生气'],
-        pinyin: ['zhè zhǒng xiǎoshì', 'gēnběn', 'bù zhídé', 'shēngqì'],
+        hanzi: ['这', '种', '小事', '根本', '不值得', '生气'],
+        pinyin: ['zhè', 'zhǒng', 'xiǎoshì', 'gēnběn', 'bù zhídé', 'shēngqì'],
       },
     },
     {
@@ -5336,9 +5330,22 @@ const sentenceData = {
       korean:
         'A: 이런 사소한 일은 전혀 화낼 만한 게 아니야, 한번 웃어넘기면 돼.',
       chinese: {
-        hanzi: ['这种小事', '根本', '不值得', '生气', '笑一笑', '就', '过去了'],
+        hanzi: [
+          '这',
+          '种',
+          '小事',
+          '根本',
+          '不值得',
+          '生气',
+          '笑一笑',
+          '就',
+          '过去',
+          '了',
+        ],
         pinyin: [
-          'zhè zhǒng xiǎoshì',
+          'zhè',
+          'zhǒng',
+          'xiǎoshì',
           'gēnběn',
           'bù zhídé',
           'shēngqì',
@@ -5347,6 +5354,36 @@ const sentenceData = {
           'guòqù',
           'le',
         ],
+      },
+    },
+    {
+      id: 'sentence50',
+      level: 10,
+      isFinal: false,
+      korean: '말이 맞아.',
+      chinese: {
+        hanzi: ['说得对'],
+        pinyin: ['shuō de duì'],
+      },
+    },
+    {
+      id: 'sentence50',
+      level: 11,
+      isFinal: false,
+      korean: '너 말이 맞아.',
+      chinese: {
+        hanzi: ['你', '说', '得', '对'],
+        pinyin: ['nǐ', 'shuō', 'de', 'duì'],
+      },
+    },
+    {
+      id: 'sentence50',
+      level: 12,
+      isFinal: true,
+      korean: 'B: 그래, 너 말이 맞아.',
+      chinese: {
+        hanzi: ['好吧', '你', '说', '得', '对'],
+        pinyin: ['hǎo ba', 'nǐ', 'shuō', 'de', 'duì'],
       },
     },
   ],
