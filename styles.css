@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #f0fff0;
+  background-color: #fffbf0;
   color: #333;
   line-height: 1.6;
   min-height: 100vh;
@@ -20,8 +20,8 @@ body {
   background-color: white;
   border-radius: 25px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-  border-top: 10px solid #2ecc71;
-  border-bottom: 10px solid #2ecc71;
+  border-top: 10px solid #f4c84d;
+  border-bottom: 10px solid #f4c84d;
 }
 
 header {
@@ -35,7 +35,7 @@ header h1 {
   font-size: 2.2rem;
   margin-bottom: 0.5rem;
   font-weight: 700;
-  color: #27ae60;
+  color: #e0a800;
   letter-spacing: 1px;
 }
 
@@ -46,8 +46,8 @@ header:after {
   height: 2px;
   background: repeating-linear-gradient(
     90deg,
-    #2ecc71,
-    #2ecc71 8px,
+    #f4c84d,
+    #f4c84d 8px,
     transparent 8px,
     transparent 16px
   );
@@ -58,7 +58,7 @@ header:after {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: #2ecc71;
+  color: #f4c84d;
   font-size: 0.9rem;
   font-style: bold;
 }
@@ -85,11 +85,11 @@ header:after {
   max-height: 90%;
   overflow-y: auto;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-  border: 5px solid #2ecc71;
+  border: 5px solid #f4c84d;
 }
 
 .popup h2 {
-  color: #27ae60;
+  color: #e0a800;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -109,7 +109,7 @@ header:after {
 .subtitle-center {
   text-align: center;
   margin-bottom: 1.2rem; /* h5와 다음 요소 사이 간격 조정 */
-  color: #27ae60; /* h2와 같은 색상 */
+  color: #e0a800; /* h2와 같은 색상 */
 }
 
 /* 빨간색 강조 텍스트 (굵게) */
@@ -155,8 +155,8 @@ header:after {
 .day-button {
   padding: 1rem 1.5rem;
   background-color: #e8f8f5;
-  color: #27ae60;
-  border: 2px solid #2ecc71;
+  color: #e0a800;
+  border: 2px solid #f4c84d;
   border-radius: 12px;
   font-size: 1.1rem;
   font-weight: 600;
@@ -165,7 +165,7 @@ header:after {
 }
 
 .day-button:hover {
-  background-color: #2ecc71;
+  background-color: #f4c84d;
   color: white;
 }
 
@@ -177,7 +177,7 @@ header:after {
 }
 
 .day-button.active {
-  background-color: #2ecc71;
+  background-color: #f4c84d;
   color: white;
 }
 
@@ -187,7 +187,7 @@ header:after {
   align-items: center;
   margin-bottom: 0.7rem;
   padding: 0.5rem;
-  color: #27ae60;
+  color: #e0a800;
 }
 
 .timer-display {
@@ -197,7 +197,7 @@ header:after {
 
 .timer-display h3 {
   font-size: 1.5rem;
-  color: #27ae60;
+  color: #e0a800;
   margin-bottom: 0.5rem;
 }
 
@@ -208,13 +208,13 @@ header:after {
 
 .progress-display h3 {
   font-size: 1.5rem;
-  color: #27ae60;
+  color: #e0a800;
   margin-bottom: 0.5rem;
 }
 
 .progress {
   height: 100%;
-  background-color: #2ecc71;
+  background-color: #f4c84d;
   width: 0%;
   transition: width 0.5s ease;
   border-radius: 8px;
@@ -230,7 +230,7 @@ header:after {
   font-size: 1.3rem;
   font-weight: 500;
   color: #333;
-  border: 1px dashed #2ecc71;
+  border: 1px dashed #f4c84d;
 }
 
 .instruction {
@@ -261,7 +261,7 @@ header:after {
 /* 배치된 카드 컨테이너 */
 #placed-cards {
   background-color: white;
-  border: 2px dotted #2ecc71;
+  border: 2px dotted #f4c84d;
   min-height: 120px;
   display: flex;
   flex-wrap: wrap;
@@ -286,8 +286,8 @@ header:after {
   flex-direction: column;
   padding: 0.2rem 1.5rem;
   background-color: #e8f8f5;
-  color: #27ae60;
-  border: 2px solid #2ecc71;
+  color: #e0a800;
+  border: 2px solid #f4c84d;
   border-radius: 10px;
   cursor: pointer;
   user-select: none;
@@ -346,8 +346,8 @@ header:after {
   padding: 1rem 2rem;
   margin-top: 1rem;
   background-color: #e8f8f5;
-  color: #27ae60;
-  border: 2px solid #2ecc71;
+  color: #e0a800;
+  border: 2px solid #f4c84d;
   border-radius: 10px;
   font-weight: 700;
   font-size: 1.2rem;
@@ -372,8 +372,8 @@ header:after {
 button {
   padding: 0.2rem 2rem;
   background-color: #e8f8f5;
-  color: #27ae60;
-  border: 2px solid #2ecc71;
+  color: #e0a800;
+  border: 2px solid #f4c84d;
   border-radius: 10px;
   font-size: 1.1rem;
   font-weight: 600;
@@ -382,7 +382,7 @@ button {
 }
 
 button:hover {
-  background-color: #2ecc71;
+  background-color: #f4c84d;
   color: white;
 }
 
@@ -391,13 +391,13 @@ button:active {
 }
 
 #start-game {
-  background-color: #2ecc71;
+  background-color: #f4c84d;
   color: white;
   font-size: 1.2rem;
 }
 
 #check-button {
-  background-color: #2ecc71;
+  background-color: #f4c84d;
   color: white;
   height: 44px;
   display: flex;
@@ -414,13 +414,13 @@ button:active {
   padding: 1.5rem;
   max-height: 50vh;
   overflow-y: auto;
-  border: 2px solid #2ecc71;
+  border: 2px solid #f4c84d;
 }
 
 .review-item {
   margin-bottom: 1.5rem;
   padding: 1rem;
-  border-bottom: 1px dashed #2ecc71;
+  border-bottom: 1px dashed #f4c84d;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -436,10 +436,10 @@ button:active {
 .sentence-number {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #2ecc71;
+  color: #f4c84d;
   margin-bottom: 0.8rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #2ecc71;
+  border-bottom: 2px solid #f4c84d;
 }
 
 /* 문장 박스 스타일 (A문장, B문장) */
@@ -448,7 +448,7 @@ button:active {
   padding: 0.8rem;
   background-color: #f8f9fa;
   border-radius: 8px;
-  border-left: 4px solid #2ecc71;
+  border-left: 4px solid #f4c84d;
 }
 
 .sentence-box:last-child {
@@ -461,7 +461,7 @@ button:active {
   font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 0.3rem;
-  color: #2ecc71;
+  color: #f4c84d;
 }
 
 /* 병음 스타일 */
@@ -558,7 +558,7 @@ button:active {
 
 /* 시작 버튼 스타일 */
 #start-game {
-  background-color: #2ecc71;
+  background-color: #f4c84d;
   color: white;
   font-size: 1.2rem;
   padding: 1rem 2.5rem;
@@ -570,7 +570,7 @@ button:active {
 }
 
 #start-game:hover {
-  background-color: #27ae60;
+  background-color: #e0a800;
   transform: translateY(-3px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -583,7 +583,7 @@ button:active {
 #day-selection h3 {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #27ae60;
+  color: #e0a800;
   font-size: 1.5rem;
 }
 
@@ -619,7 +619,7 @@ button:active {
 /* 시간 초과 팝업 스타일 */
 #timeout-popup .popup-content {
   background-color: rgba(255, 242, 221, 0.95);
-  border: 3px solid #2ecc71;
+  border: 3px solid #f4c84d;
   padding: 2rem;
   text-align: center;
   border-radius: 15px;
@@ -628,7 +628,7 @@ button:active {
 }
 
 #timeout-popup h2 {
-  color: #27ae60;
+  color: #e0a800;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -651,7 +651,7 @@ button:active {
 }
 
 #completed-day {
-  color: #27ae60;
+  color: #e0a800;
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
