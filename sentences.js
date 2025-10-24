@@ -3554,7 +3554,7 @@ const sentenceData = {
       isFinal: false,
       korean: '저는 반드시 성공할 거예요.',
       chinese: {
-        hanzi: ['我', '一定要', '成功'],
+        hanzi: ['我', '一定', '要', '成功'],
         pinyin: ['wǒ', 'yídìng', 'yào', 'chénggōng'],
       },
     },
@@ -3697,8 +3697,8 @@ const sentenceData = {
       isFinal: false,
       korean: '주의해야 해요.',
       chinese: {
-        hanzi: ['要注意'],
-        pinyin: ['yào zhùyì'],
+        hanzi: ['要', '注意'],
+        pinyin: ['yào', 'zhùyì'],
       },
     },
     {
@@ -3747,8 +3747,8 @@ const sentenceData = {
       isFinal: false,
       korean: '도착하면 저에게 전화해요.',
       chinese: {
-        hanzi: ['到', '了', '给', '我', '打', '电话'],
-        pinyin: ['dào', 'le', 'gěi', 'wǒ', 'dǎ', 'diànhuà'],
+        hanzi: ['到了', '给', '我', '打', '电话'],
+        pinyin: ['dào le', 'gěi', 'wǒ', 'dǎ', 'diànhuà'],
       },
     },
     {
@@ -4115,8 +4115,8 @@ const sentenceData = {
       isFinal: false,
       korean: '더 중요해요.',
       chinese: {
-        hanzi: ['更重要'],
-        pinyin: ['gèng zhòngyào'],
+        hanzi: ['更', '重要'],
+        pinyin: ['gèng', 'zhòngyào'],
       },
     },
     {
