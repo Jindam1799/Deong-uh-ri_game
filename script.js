@@ -94,6 +94,52 @@ document.addEventListener('DOMContentLoaded', function () {
     updateProgress();
   }
 
+  // 현재 문장 번호 계산하기
+  function calculateSentenceNumber() {
+    // 전체 문장 번호 계산 (Day별로 누적)
+    let totalSentenceNumber = 0;
+
+    // 이전 Day들의 문장 개수를 더함
+    for (let i = 1; i < currentDay; i++) {
+      const dayKey = `day${i}`;
+      if (sentenceData[dayKey]) {
+        const dayData = sentenceData[dayKey];
+        const uniqueIds = new Set();
+        dayData.forEach((s) => uniqueIds.add(s.id));
+        // 각 ID당 isFinal true가 2개씩 있으므로 ID 개수 * 2
+        totalSentenceNumber += uniqueIds.size * 2;
+      }
+    }
+
+    // 현재 Day에서 현재 문장까지의 번호 계산
+    for (let i = 0; i < currentSentenceIndex; i++) {
+      // 각 sentence ID는 2개의 완성 문장(A, B)을 가짐
+      totalSentenceNumber += 2;
+    }
+
+    // 현재 문장의 isFinal true 개수 확인
+    const finalCount = currentLevels.filter((l) => l.isFinal).length;
+    if (finalCount === 2) {
+      // A와 B 문장이 있는 경우
+      const finalSentences = currentLevels.filter((l) => l.isFinal);
+      const firstFinalIndex = currentLevels.indexOf(finalSentences[0]);
+      const secondFinalIndex = currentLevels.indexOf(finalSentences[1]);
+
+      if (currentLevelIndex >= secondFinalIndex) {
+        // B 문장
+        totalSentenceNumber += 2;
+      } else if (currentLevelIndex >= firstFinalIndex) {
+        // A 문장
+        totalSentenceNumber += 1;
+      } else {
+        // 아직 A 문장 전 (덩어리 단계)
+        totalSentenceNumber += 1;
+      }
+    }
+
+    return totalSentenceNumber;
+  }
+
   // 문장 로드
   function loadSentence() {
     if (currentSentenceIndex < currentSentences.length) {
@@ -102,9 +148,18 @@ document.addEventListener('DOMContentLoaded', function () {
       if (currentLevelIndex < currentLevels.length) {
         const sentence = currentLevels[currentLevelIndex];
         koreanSentence.textContent = sentence.korean;
-        sentenceCountSpan.textContent = `문장 ${currentSentenceIndex + 1}/${
-          currentSentences.length
-        }`;
+
+        // 문장 번호 계산
+        const sentenceNumber = calculateSentenceNumber();
+
+        // 문장 카운트 표시 변경
+        if (sentence.isFinal) {
+          sentenceCountSpan.innerHTML = `<span style="color: #d1464c; font-weight: 700;">🎉${sentenceNumber}번째 문장 완성🎉</span>`;
+          koreanSentence.classList.add('final-sentence');
+        } else {
+          sentenceCountSpan.textContent = `🧱${sentenceNumber}번째 문장의 덩어리🧱`;
+          koreanSentence.classList.remove('final-sentence');
+        }
 
         // 카드 생성
         createCards(sentence);
