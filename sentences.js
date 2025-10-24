@@ -14,21 +14,21 @@ const sentenceData = {
     {
       id: 'sentence1',
       level: 2,
-      isFinal: false,
-      korean: '중국어를 말할 줄 알아요?',
-      chinese: {
-        hanzi: ['会', '说', '汉语'],
-        pinyin: ['huì', 'shuō', 'hànyǔ'],
-      },
-    },
-    {
-      id: 'sentence1',
-      level: 3,
       isFinal: true,
       korean: 'A: 누가 중국어를 말할 줄 아나요?',
       chinese: {
         hanzi: ['谁', '会', '说', '汉语'],
         pinyin: ['shéi', 'huì', 'shuō', 'hànyǔ'],
+      },
+    },
+    {
+      id: 'sentence1',
+      level: 3,
+      isFinal: false,
+      korean: '중국어를 말할 줄 알아요?',
+      chinese: {
+        hanzi: ['会', '说', '汉语'],
+        pinyin: ['huì', 'shuō', 'hànyǔ'],
       },
     },
     {
