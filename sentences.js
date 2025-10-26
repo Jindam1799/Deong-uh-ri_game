@@ -2113,7 +2113,7 @@ const sentenceData = {
       korean: '……, 영어도 말할 줄 알아요.',
       chinese: {
         hanzi: ['……, 也', '会', '说', '英语'],
-        pinyin: ['……, yě', 'huì', 'shuō', 'Yīngyǔ'],
+        pinyin: ['yě', 'huì', 'shuō', 'Yīngyǔ'],
       },
     },
     {
@@ -2235,7 +2235,7 @@ const sentenceData = {
       korean: '일기예보에 따르면 ……래요.',
       chinese: {
         hanzi: ['天气预报', '说……'],
-        pinyin: ['tiānqì yùbào', 'shuō……'],
+        pinyin: ['tiānqì yùbào', 'shuō'],
       },
     },
     {
@@ -2265,7 +2265,7 @@ const sentenceData = {
       korean: '……, 게다가 폭우래요(비가 많이 내린대요).',
       chinese: {
         hanzi: ['……, 而且', '是', '大雨'],
-        pinyin: ['……, érqiě', 'shì', 'dà yǔ'],
+        pinyin: ['érqiě', 'shì', 'dà yǔ'],
       },
     },
     {
@@ -2734,7 +2734,7 @@ const sentenceData = {
       isFinal: false,
       korean: '알아듣기만 해도(알아들을 수만 있어도) …… .',
       chinese: {
-        hanzi: ['听得懂就'],
+        hanzi: ['听得懂就……'],
         pinyin: ['tīng de dǒng jiù'],
       },
     },
@@ -4910,7 +4910,7 @@ const sentenceData = {
       korean: '……, 그래서 자주 택시를 타고 집에 가.',
       chinese: {
         hanzi: ['……, 所以', '常常', '叫', '车', '回', '家'],
-        pinyin: ['……, suǒyǐ', 'chángcháng', 'jiào', 'chē', 'huí', 'jiā'],
+        pinyin: ['suǒyǐ', 'chángcháng', 'jiào', 'chē', 'huí', 'jiā'],
       },
     },
     {
