@@ -138,6 +138,20 @@ header:after {
   margin-top: 0rem; /* 연속된 h4 태그 사이의 여백 제거 */
 }
 
+/* 복습 화면 인증 안내 */
+.review-instruction {
+  margin-bottom: 0.3rem !important;
+}
+
+/* 복습 화면 설명 (부호 생략 안내) */
+.review-note {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #999;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+}
+
 .popup p {
   margin-bottom: 1rem;
   font-size: 1.1rem;
